@@ -1,0 +1,732 @@
+[
+  {
+    "title": "Maa-connect",
+    "team": "Maa Connect",
+    "short_description": "Our project is a simple network management chatbot. It will help teachers, health facility network managers and individuals do basic diagnostic analysis of their network.",
+    "full_description": "Our project is a simple yet powerful network management chatbot designed to assist teachers, health facility network managers, and individuals in performing basic diagnostic analysis of their network.\n\nThe chatbot will provide real-time insights into network performance, helping users troubleshoot connectivity issues, monitor network health, and optimize usage. By leveraging AI, the chatbot will analyze network conditions, suggest solutions, and guide users through resolving common problems such as slow speeds, connection drops, and device conflicts.\n\nThis solution is especially useful for educational institutions and healthcare facilities where stable internet connectivity is essential for seamless operations. Teachers can use the chatbot to ensure smooth online classes, while health facility network managers can rely on it to maintain uninterrupted access to critical digital resources. Individuals can also use it to diagnose and improve their home network performance.\n\nThe chatbot will have an intuitive interface, allowing users to interact in natural language. Whether through a web-based platform, mobile app, or integration with existing network monitoring tools, our chatbot aims to simplify network diagnostics and empower users with actionable insights.",
+    "technologies": [
+      "",
+      "TinyLlama"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon-building-resilient-networks/maa-connect/maa-connect",
+    "category": "education"
+  },
+  {
+    "title": "Smarti",
+    "team": "VIBOT",
+    "short_description": "This project uses machine learning to optimize TVWS base stations, predicting interference, failures, and providing AI recommendations. It features a dashboard, a simulation map, and procurement tracking.",
+    "full_description": "This project leverages machine learning to optimize TVWS base station locations using datasets on schools, towers, demographics, elevation, and spectrum. The dashboard provides key insights, including predicted interference, failure risks, and AI-driven recommendations to enhance network performance. A dedicated Potential Location page simulates TVWS availability on an interactive map, identifying optimal base station placements based on factors like population density and elevation. Additionally, a Procurement page, currently in progress, will track infrastructure and equipment acquisition for future deployments. By integrating historical data and predictive analytics, this system enables proactive decision-making to improve TVWS coverage and reliability.",
+    "technologies": [
+      "Gemini AI",
+      "Generative AI Studio"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon-building-resilient-networks/vibot/smarti",
+    "category": "education"
+  },
+  {
+    "title": "AI for Connectivity Global Green Guard",
+    "team": "Global Green Guard",
+    "short_description": "AI platform to optimize school connectivity using geospatial data and LLMS for underserved regions",
+    "full_description": "To develop an AI-powered solution that optimizes public sector network planning, procurement,\nand maintenance for scalable and sustainable school connectivity in underserved regions. The\nsystem will leverage open-source technologies, including Large Language Models (LLMs) and\ngeospatial data analysis, to dynamically generate actionable insights and recommendations for\nimproving school connectivity. The solution will simplify complex network planning tasks for\nnon-technical stakeholders by providing an intuitive, interactive, and generative UI that\nvisualizes connectivity gaps, predicts infrastructure needs, and simulates the impact of various\ninterventions.",
+    "technologies": [
+      "GPT-4 Vision"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon-building-resilient-networks/global-green-guard/ai-for-connectivity-global-green-guard",
+    "category": "education"
+  },
+  {
+    "title": "Connectivity Matter",
+    "team": "Connectivity matters",
+    "short_description": "A tool solve connectivity issue.\n1. Solve problem for those who live in low interent zome.\n2. Help user to find good vendor interent service provider.",
+    "full_description": "### **DigitalActivator** (Digital Service Activation)  \nDigitalActivator enables access to essential digital services for users without reliable internet by leveraging SMS-based interactions, offline storage, and data compression. It delivers information on news, education, healthcare, finance, and weather through simple SMS queries. The platform integrates APIs from trusted sources, ensuring real-time, accurate data retrieval. By reducing bandwidth usage and allowing offline content access, DigitalActivator bridges the digital divide, making critical services accessible to underserved communities.  \n\n### **GoodVendor** (Procurement & Policy Innovation)  \nGoodVendor helps users find reliable internet service providers and network accessories through smart vendor discovery. It offers vendor comparisons, user reviews, and quality assessments, ensuring informed decision-making. With data-driven recommendations and a user-friendly interface, GoodVendor simplifies the procurement process, making high-quality connectivity solutions more accessible.",
+    "technologies": [
+      "",
+      "CAMEL-AI",
+      "Llama 3",
+      "DeepSeek R1",
+      "AI/ML API"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon-building-resilient-networks/connectivity-matters/connectivity-matter",
+    "category": "education"
+  },
+  {
+    "title": "AfriLearn AI Tutoring Platform",
+    "team": "AIonMars",
+    "short_description": "Our project aims to provide equitable, personalized education and mentorship to African students through an AI-powered platform, using OpenAI\u2019s GPT-3.5 as a multilingual chatbot, stable diffusion for visual lessons, and ElevenLabs for text-to-speech.",
+    "full_description": "Schools in Africa have several needs. We want to focus on the lack of adequate infrastructure and the limited access to modern technologies, which restricts students' ability to participate in online learning programs or access digital educational resources. AI-powered platform. Initially developed on Streamlit for rapid prototyping, this platform integrates multiple technologies to deliver an educational experience rooted in African culture. It leverages OpenAI\u2019s GPT-3.5 for a multilingual chatbot that answers questions using culturally relevant African examples. Stability AI generates localized visual lessons, such as science diagrams featuring native plants, while ElevenLabs provides text-to-speech functionality for audio responses. Additionally, the mentorship system organizes requests in a CSV database and includes an admin dashboard for managing student needs.",
+    "technologies": [
+      "",
+      "streamlit",
+      "Stable Diffusion",
+      "ElevenLabs",
+      "ChatGPT",
+      "OpenAI"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon-building-resilient-networks/aionmars/afrilearn-ai-tutoring-platform",
+    "category": "education"
+  },
+  {
+    "title": "SPOT Connect",
+    "team": "default",
+    "short_description": "\ud835\udde6\ud835\udde3\ud835\udde2\ud835\udde7 \ud835\uddd6\ud835\uddfc\ud835\uddfb\ud835\uddfb\ud835\uddf2\ud835\uddf0\ud835\ude01 leverages AI for predictive \ud835\uddfa\ud835\uddee\ud835\uddf6\ud835\uddfb\ud835\ude01\ud835\uddf2\ud835\uddfb\ud835\uddee\ud835\uddfb\ud835\uddf0\ud835\uddf2, \ud835\uddff\ud835\uddf2\ud835\uddee\ud835\uddf9-\ud835\ude01\ud835\uddf6\ud835\uddfa\ud835\uddf2 \ud835\uddfa\ud835\uddfc\ud835\uddfb\ud835\uddf6\ud835\ude01\ud835\uddfc\ud835\uddff\ud835\uddf6\ud835\uddfb\ud835\uddf4, and \ud835\uddf6\ud835\uddfb\ud835\ude01\ud835\uddf2\ud835\uddf9\ud835\uddf9\ud835\uddf6\ud835\uddf4\ud835\uddf2\ud835\uddfb\ud835\ude01 \ud835\uddff\ud835\uddfc\ud835\ude02\ud835\ude01\ud835\uddf6\ud835\uddfb\ud835\uddf4 to \ud835\udde5\ud835\uddf2\ud835\uddf1\ud835\ude02\ud835\uddf0\ud835\uddf2 \ud835\uddf1\ud835\uddfc\ud835\ude04\ud835\uddfb\ud835\ude01\ud835\uddf6\ud835\uddfa\ud835\uddf2 in \ud835\uddfd\ud835\ude02\ud835\uddef\ud835\uddf9\ud835\uddf6\ud835\uddf0 \ud835\ude00\ud835\uddf2\ud835\uddf0\ud835\ude01\ud835\uddfc\ud835\uddff \ud835\uddfb\ud835\uddf2\ud835\ude01\ud835\ude04\ud835\uddfc\ud835\uddff\ud835\uddf8\ud835\ude00.",
+    "full_description": "\ud835\udde6\ud835\udde3\ud835\udde2\ud835\udde7 \ud835\uddd6\ud835\uddfc\ud835\uddfb\ud835\uddfb\ud835\uddf2\ud835\uddf0\ud835\ude01 is an AI-powered network resilience platform that revolutionizes \ud835\uddfd\ud835\ude02\ud835\uddef\ud835\uddf9\ud835\uddf6\ud835\uddf0 \ud835\ude00\ud835\uddf2\ud835\uddf0\ud835\ude01\ud835\uddfc\ud835\uddff infrastructure by harnessing cutting-edge AI solutions to drive predictive maintenance, real-time monitoring, and intelligent routing. Our platform addresses critical \ud835\uddf0\ud835\uddf5\ud835\uddee\ud835\uddf9\ud835\uddf9\ud835\uddf2\ud835\uddfb\ud835\uddf4\ud835\uddf2\ud835\ude00 such as reactive maintenance, inefficient resource allocation, high operational costs, and suboptimal routing, ensuring networks remain robust, reliable, and efficient. \nUtilizing hyperdimensional computing and advanced time-series analysis, SPOT Connect anticipates faults before they occur, optimizes maintenance schedules, and manages energy and costs through dynamic routing algorithms and QoS-aware optimization. The secure architecture, built on a FastAPI framework and Python ML stack, guarantees real-time data processing and robust security. Future enhancements include advanced ML model integration, IoT sensor expansion, GIS data incorporation, and cloud-native deployment, positioning SPOT Connect as the cornerstone of digital transformation in the public sector.",
+    "technologies": [
+      "",
+      "Assistants API",
+      "AI/ML API"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon-building-resilient-networks/default/spot-connect",
+    "category": "education"
+  },
+  {
+    "title": "AI-Driven Smart Hotspot",
+    "team": "Astra Link",
+    "short_description": "AI-powered Android app turning smartphones into smart Wi-Fi access points, optimizing network coverage in schools and healthcare. AI dynamically routes users to the best signal, enhancing scalability, efficiency, and sustainability in underserved regions.",
+    "full_description": "Our solution is an AI-powered Android application that transforms smartphones into intelligent Wi-Fi access points, improving network coverage in critical public sector institutions such as schools and healthcare facilities. By leveraging advanced Wi-Fi chipset capabilities, the app enables mobile devices to function as both clients and access points, dynamically extending connectivity.\n\nAI optimizes network routing by directing users to the strongest nearby signal, similar to how Google Maps mitigates traffic congestion. This ensures seamless internet access, reduces infrastructure costs, and enhances scalability, efficiency, and sustainability in underserved regions, ultimately bridging the digital divide in critical public services.",
+    "technologies": [
+      "Gemini AI"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon-building-resilient-networks/astra-link/ai-driven-smart-hotspot",
+    "category": "education"
+  },
+  {
+    "title": "AI-Driven Zabbix for School Networks",
+    "team": "IAlovers",
+    "short_description": "AI-integrated Zabbix enhances school networks by detecting, analyzing, and diagnosing issues. Using Orca Mini & GPT-4, it provides real-time insights and solutions for better connectivity and IT management.  \ud83d\ude80",
+    "full_description": "Our project integrates AI with Zabbix to develop an intelligent network monitoring and diagnostic system tailored for educational institutions. Schools rely heavily on stable internet connectivity for digital learning, online assessments, and cloud-based applications. However, network issues such as downtime, high latency, or bandwidth constraints can disrupt these activities.\n\nTo address this, we enhance Zabbix with AI-powered analysis using Orca Mini and GPT-4. Our system detects, analyzes, and diagnoses network problems in real time, providing automated insights and recommendations to IT administrators. The AI assistant runs on Windows, communicating with a Zabbix server on Ubuntu via SSH, ensuring seamless interaction between AI and network monitoring tools.\n\nWhen an issue arises, Zabbix detects the alert, and the AI assistant processes logs, configurations, and network metrics to determine potential root causes. It then generates detailed recommendations for resolution, helping IT teams act faster and prevent prolonged downtime. The system also supports predictive analytics, identifying trends that may lead to future network failures and suggesting proactive solutions.\n\nThis AI-enhanced network management drastically reduces IT workload, optimizes resource allocation, and ensures continuous, high-quality connectivity for students, teachers, and administrators. By making network troubleshooting faster and smarter, our project empowers schools with self-healing, AI-driven infrastructure that supports modern education and digital transformation. \ud83d\ude80",
+    "technologies": [
+      "MetaGPT",
+      "Llama 3",
+      "ChatGPT"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon-building-resilient-networks/ialovers/ai-driven-zabbix-for-school-networks",
+    "category": "education"
+  },
+  {
+    "title": "Smart Network Resource Allocation",
+    "team": "ByteBand",
+    "short_description": "A Smart Network Resource Allocation System using Prophet's time-series forecasting for efficient bandwidth distribution, anomaly detection, and energy-aware SDN load balancing. Features a Streamlit dashboard for real-time monitoring and insights.",
+    "full_description": "Ensuring optimal network performance and efficient bandwidth allocation in modern digital infrastructures is crucial, especially in educational institutions where multiple nodes compete for resources. This project introduces a Smart Network Resource Allocation System that leverages Software-Defined Networking (SDN), machine learning, and time-series forecasting to distribute bandwidth intelligently among different schools.\n\nThe system gathers real-time bandwidth usage data, detects anomalies using the Interquartile Range (IQR) method, and predicts future demand through the Prophet time-series forecasting model. The allocated bandwidth is optimized based on these predictions, ensuring fair and efficient distribution among schools. The SDN-based load balancer also computes energy-efficient network routes to reduce congestion and enhance data flow efficiency.\n\nThe solution provides a Streamlit-based interactive dashboard, allowing users to visualize bandwidth trends, monitor real-time allocations, and review detected anomalies. This approach ensures proactive network management, preventing bottlenecks and improving overall network performance.",
+    "technologies": [
+      "streamlit"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon-building-resilient-networks/byteband/smart-network-resource-allocation",
+    "category": "education"
+  },
+  {
+    "title": "Lace Intelligent Mesh Network for Universal Access",
+    "team": "Lace",
+    "short_description": "AI-driven, self-expanding mesh networks to connect schools and communities, incorporating zero-signal communication for offline access and AI-optimized bandwidth allocation.",
+    "full_description": "This groundbreaking technology combines several cutting-edge features to provide reliable internet access and educational opportunities to underserved communities.\n\n\u2022 Self-Expanding Mesh Network: Utilizing AI-driven nodes, the mesh network adapts and grows organically to meet the community's needs.\n\u2022 Zero-Signal Communication: Even in areas with no mobile network coverage, Lace enables access to offline educational resources. When a user generates information or submits queries while offline, the system employs local storage to retain this data. As soon as the device reconnects to the network, it automatically begins uploading the stored data. When a device on the mesh network requires internet access, it can route its requests through other connected devices in the network that do have an internet connection. This peer-to-peer approach allows for the sharing of internet resources across the entire mesh\n\u2022 AI-Optimized Bandwidth: The system prioritizes learning-related data over unnecessary usage, maximizing connectivity for students and optimizing the available bandwidth.\nAffordable Internet via Local Hubs: Schools serve as community data centers, allowing students to download lectures and coursework efficiently.\n\u2022 Energy Efficient & Disaster-Resilient: The mesh network remains operational in remote or disaster-prone areas, providing uninterrupted access to resources.\n\nThis comprehensive solution has the potential to revolutionize education in rural areas by making quality learning materials accessible to millions of students who currently lack internet access. By combining advanced AI algorithms, mesh networking, and zero-signal communication, Lace creates a robust and adaptable system that can overcome the challenges of connectivity in even the most remote locations.",
+    "technologies": [
+      "",
+      "streamlit",
+      "OpenAI"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon-building-resilient-networks/lace/lace-intelligent-mesh-network-for-universal-access",
+    "category": "education"
+  },
+  {
+    "title": "EduMate",
+    "team": "EduMate",
+    "short_description": "EduMate is an AI study assistant for managing and analyzing study materials. It offers summarization, quiz generation, Q&A, and note-taking using Gemini, FAISS, and Sentence Transformers for efficient learning.",
+    "full_description": "EduMate is a smart study companion designed to revolutionize how students interact with their study materials. It uses cutting-edge AI technologies like Google Gemini for generative tasks, Sentence Transformers for semantic embeddings, and FAISS for efficient similarity search. Students can upload study materials (PDFs, text files) and use EduMate to generate concise summaries, create customizable quizzes, and extract key insights through a chat-based Q&A system. If the document lacks sufficient context, EduMate performs web searches via Tavily to provide comprehensive answers. Additionally, it generates bullet-point notes for quick reviews and offers file management features. EduMate aims to make studying more efficient, personalized, and engaging by combining advanced AI with user-friendly functionality.",
+    "technologies": [
+      "LangChain",
+      "Gemini AI",
+      "streamlit",
+      ""
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon-building-resilient-networks/edumate/edumate",
+    "category": "education"
+  },
+  {
+    "title": "Connect them all",
+    "team": "BezimeniIT",
+    "short_description": "AI-Powered Calculation Model for School Connectivity Prioritization.\n Tool for Visualizing the Next Top 5 Schools Optimal for Connection\n With Included Cost Predictions and Best Technologies",
+    "full_description": "Our data-driven AI model is using different data sets to rank\n top 5 schools to be connected in the area, with details and\n alternatives on the suggested technology and costs.  Multiple factors are used for calculating the rank, such as:\n location, available network infrastructure, population\n density, terrain, weather conditions impact and cost of\n implementation and future operational costs\nBy integrating these diverse data sources, the system can build a rich picture of what precedes and accompanies connectivity problems.\n\u200bUsing these factors, our model can even produce visual maps highlighting the recommended connectivity solution for each school.",
+    "technologies": [
+      "",
+      "AI/ML API"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon-building-resilient-networks/bezimeniit/connect-them-all",
+    "category": "education"
+  },
+  {
+    "title": "NetConnect",
+    "team": "BIRXUO",
+    "short_description": "Public Sector Network Connectivity Analyzer - A robust application monitoring network performance across public institutions. tracks metrics, simulates scenarios, and provides geographic mapping for educational, healthcare, and government facilities.",
+    "full_description": "Public Sector Network Connectivity Analyzer\n\nThe Public Sector Network Connectivity Analyzer is a comprehensive solution designed to address the critical need for reliable network monitoring across public institutions. Our application serves as an essential tool for IT administrators managing connectivity infrastructure for schools, healthcare facilities, government offices, libraries, and other public service organizations.\n\nCore Capabilities\n\nReal-Time Network Visualization\nInteractive diagrams and topology maps provide clear visibility into how public institutions are connected, displaying network elements, connection points, and infrastructure components with intuitive visualization tools.\n\nPerformance Monitoring System\nOur platform continuously tracks vital network metrics including uptime percentages, latency measurements, bandwidth utilization, and connection status across the entire public sector network, enabling proactive management.\n\nAdvanced Simulation Engine\nIT professionals can run comprehensive simulations to test network resilience under various scenarios such as increased user loads, infrastructure failures, or cyber incidents, helping identify vulnerabilities before they impact critical services.\n\nInstitution Management Portal\nAdministrators can efficiently manage information about connected institutions, monitor their connection status in real-time, and access detailed performance metrics through a unified dashboard interface.\n\nGeographic Mapping Integration\nOur system incorporates geographic visualization capabilities to display the physical distribution of institutions and network infrastructure across regions, facilitating better resource allocation and planning.\n\nTechnical Implementation\n\nThis solution addresses the unique challenges faced by public sector organizations that require reliable connectivity for delivering essential services to communities, while providing the tools needed to ensure network resilience, performance, and security.",
+    "technologies": [
+      "Gemma 2",
+      "MindsDB Knowledge Base",
+      "SuperAGI",
+      "Falcon 2 11B",
+      "Gemini AI",
+      "Codium",
+      "FineTuner.ai",
+      "Shap-E",
+      "AutoGen",
+      "Custom GPTs",
+      "Restack",
+      "Whisper",
+      "EasyOCR",
+      "open-interpreter",
+      "LTM-2-mini",
+      "Tonic.ai",
+      "GPT-3.5",
+      "AI/ML API",
+      "DALL-E-2",
+      "Groq",
+      "Text Generation Web UI",
+      "Twelve Labs",
+      "TruLens",
+      "Stable Diffusion",
+      "TinyLlama",
+      "Reinforcement Learning",
+      "WebGPU",
+      "Vectorboard \ud83d\udc9b",
+      "OpenAI",
+      "Rhymes.ai",
+      "AWS SageMaker",
+      "Cohere Rerank",
+      "Clarifai",
+      "Anthropic Claude",
+      "SDXL Turbo",
+      "Redis",
+      "Vercel",
+      "Solar Pro Preview",
+      "OpenGPTs",
+      "Assistants API",
+      "Featherless",
+      "Generative AI Studio",
+      "Pinecone",
+      "ChatGPT",
+      "Falcon 2 11B VLM",
+      "streamlit",
+      "Cohere Embed",
+      "IBM Granite",
+      "Falcon",
+      "Portkey",
+      "GPT-4 Vision",
+      "Dall-e Mini",
+      "Cohere",
+      "Chirp",
+      "Weaviate",
+      "Chroma",
+      "ElevenLabs",
+      "Grounded-Segment-Anything",
+      "watsonx.ai",
+      "Yi-LLMS",
+      "Together AI",
+      "YOLOv7",
+      "IBM watsonx Assistant",
+      "SambaNova",
+      "Replit",
+      "langflow",
+      "Unstructured IO",
+      "CrewAI",
+      "DALL\u00b7E Image Generation API",
+      "Solo Tech",
+      "Vectara",
+      "DeepSeek R1",
+      "DeepSeek V3",
+      "StableCode",
+      "Fuyu-8B",
+      "Toolhouse",
+      "Gorilla",
+      "YOLOv5"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon-building-resilient-networks/birxuo/netconnect",
+    "category": "education"
+  },
+  {
+    "title": "Use of AI and open source to optimize networks",
+    "team": "NetConnect",
+    "short_description": "The project is about using open source platforms such as Python and MySQL together with AI intelligence platforms from IBM and Huawei so as to  optimize public sector network management. We have selected  the third track of  optimizing resource allocation",
+    "full_description": "The project is focusing on  track 3.\nWe are optimizing resource allocation by integration  open-source especially python and MySQL with  AI technologies from IBM Cloud and Huawei Cloud.\nThe problem is that  schools in the public sector may not be conversant with monitoring telecommunication infrastructure such as determining signal coverage or even locating possible WI-FI faults.   Additionally, their is lack of an optimization framework in underserved regions for how to use the internet.\nOur solution relates to creation of AI intelligence assistants together with data platforms, the goals for providing insights of factors such as  predictive maintenance or performing  tasks autonomously. \nWe have created an intelligent assistant that is able  to answer questions such as describing relation of signal strength, internet speed, bandwidth and reliability with having high downtime and latency. The Intelligent assistant also provides recommendations such as how to  improve performance of basic telecommunication infrastructure. \nWe are integrating open source platforms by using AI to generate new responses then taking the code used to generate the responses then placing it in open source platforms such as python or MySQL. Currently, the language being is used for the code is python, the code is obtained from Watsonx.ai which is from IBM.  \nFor asset utilization analytics i am using Cognos analytics so as to  identify dormant or underused infrastructure with AI-driven tools. The AI driven tools provide narrative insights based on data uploaded in the form of excel sheets. Performance of the telecommunication infrastructure needs to be summarized into an excel document\nThe project for last mile enhancement  is  designed by an application from Huawei which is called Appcube, Appcube has various features such an IoT (Internet of Things) platform that is used to simulate performance of  telecommunication devices.\nThe demo link is a prompt notebook from Watsonx.ai from IBM.",
+    "technologies": [
+      "watsonx.ai"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon-building-resilient-networks/netconnect/use-of-ai-and-open-source-to-optimize-networks",
+    "category": "education"
+  },
+  {
+    "title": "ProfessorSTEM",
+    "team": "EngiCoders",
+    "short_description": "Meet ProfessorSTEM Your Fully AI Platform designed to provide a personalized and structured learning experience through quizzes, study plans, and progress tracking. All is done only using Artificial Intelligence from A to Z",
+    "full_description": "Introducing ProfessorSTEM Your Fully AI-Agentic Platform designed to provide a personalized and structured learning experience through quizzes, study plans, and progress tracking. All is done only using Artificial Intelligence from A to Z\n\nThe Problem We're Targeting\nTraditional e-learning platforms often lack personalization, making it difficult for learners to track their progress or receive tailored study plans that address their unique needs. Additionally, The Education Gap in Low-income Countries such as in south of africa is huge, and can be solved using proper AI-Integration Techniques\n\nOur Approach\nProfessorSTEM overcomes these challenges by offering:\n\nUser Authentication \u2013 Role-based access for students and administrators to ensure data security and seamless user management.\nPersonalized Learning Paths \u2013 An initial quiz evaluates each learner\u2019s knowledge level, creating a custom learning journey.\nAI-Generated Study Plans \u2013 Based on quiz results, the system automatically curates study materials tailored to the learner\u2019s strengths and weaknesses.\nProgress Tracking & Insights \u2013 A final assessment compares initial and final performance, providing clear insights into learning growth.\nAdmin & User Dashboards \u2013 Intuitive dashboards empower students to monitor their progress and help administrators manage learning paths efficiently.\nTechnology Stack\nProfessorSTEM is built using a robust technology stack to ensure scalability, security, and performance:\n\nBackend: Flask (Python) for API development and business logic\nFrontend: HTML, CSS, JavaScript for an intuitive user interface\nDatabase: PostgreSQL for storing user data, quiz results, and study plans\nAI & Data Processing: Pipeline-Agent Based for personalized study plan generation\nAuthentication & Security: Flask-Login and JWT for user authentication and role-based access control\nDeployment: Vercel for hosting the frontend, with backend services integrated for smooth performance",
+    "technologies": [
+      "",
+      "Generative Agents",
+      "Vercel",
+      "AI/ML API",
+      "Gemini AI"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon-building-resilient-networks/engicoders/professorstem",
+    "category": "education"
+  },
+  {
+    "title": "EduConnect",
+    "team": "Code Titans",
+    "short_description": "EduConnect is an AI-powered chatbot that connects students, educators, and institutions in underserved regions. It provides real-time insights, predicts challenges, and suggests solutions to improve education accessibility and quality worldwide.",
+    "full_description": "**EduConnect** is an AI-driven chatbot designed to bridge the education gap by connecting students, educators, and institutions in underserved regions. It leverages advanced AI models to analyze real-time data, predict challenges, and provide actionable solutions to enhance learning accessibility and quality.  \n\nWith EduConnect, users can:  \n\u2705 **Access Real-Time Insights** \u2013 Identify challenges faced by schools, colleges, and universities.  \n\u2705 **Predict & Solve Problems** \u2013 AI-powered recommendations for educational improvement.  \n\u2705 **Enhance Connectivity** \u2013 Connect institutions with resources, policies, and opportunities.  \n\u2705 **Support Decision-Making** \u2013 Data-driven guidance for policymakers, teachers, and students.  \n\nBy utilizing open-source AI models, EduConnect ensures affordability, scalability, and inclusivity, empowering students worldwide with better educational opportunities.",
+    "technologies": [
+      "Groq",
+      "streamlit"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon-building-resilient-networks/code-titans/educonnect",
+    "category": "education"
+  },
+  {
+    "title": "LexiSense-AI Powered Dyslexia Support",
+    "team": "Cats in Space",
+    "short_description": "LexiSense is an AI-driven tool that supports individuals with dyslexia by enhancing reading, writing, and comprehension. It simplifies words, offers text-to-speech and speech-to-text; provides customizable fonts and interactive learning to improve skills.",
+    "full_description": "\"\ud83e\udde0 LexiSense \u2013 AI-Powered Dyslexia Support\n\nLexiSense is an advanced AI-driven tool designed to assist individuals with dyslexia by enhancing reading, writing, and comprehension skills. Using fine-tuned AI models, it simplifies complex words, improves pronunciation, and offers real-time text assistance through text-to-speech and speech-to-text features.\n\nKey Features:\n\u2705 Fine-tuned AI for word simplification & pronunciation support\n\u2705 Real-time text-to-speech & speech-to-text conversion\n\u2705 Dyslexia-friendly fonts & adaptive text modifications\n\u2705 Phonetic breakdowns & audio hints for better understanding\n\u2705 Interactive tools like quizzes & games for engagement\n\u2705 Personalized learning & progress tracking\n\u2705 Emotional support & confidence-building encouragement\n\nWith an intuitive and accessible design, LexiSense empowers individuals with dyslexia to overcome learning challenges, making education more inclusive and effective.\n\"",
+    "technologies": [
+      "",
+      "IBM Granite"
+    ],
+    "url": "https://lablab.ai/event/generative-ai-hackathon-with-ibm-granite/cats-in-space/lexisense-ai-powered-dyslexia-support",
+    "category": "education"
+  },
+  {
+    "title": "Eye Nav",
+    "team": "Revolutionnaires",
+    "short_description": "EyeNav is an innovative AI-powered application that combines computer vision and natural language processing (NLP) to interpret human gaze and infer user intent\u2014built using tools like MediaPipe, IBM Granite Vision 3.1 Model, and FastAPI.",
+    "full_description": "Problem Statement:\nPeople with motor disabilities struggle to use digital devices. Voice commands are slow, and existing hardware solutions are expensive.\n\n\ud83d\udca1 Solution:\nAn AI-powered eye-tracking cursor using IBM Granite Vision Transformer to enable hands-free control of PCs and smartphones with just eye movements and blinks.\n\n\ud83d\ude80 Key Features:\n\u2705 Gaze-Based Cursor Movement \u2013 Move the cursor by looking around.\n\u2705 Blink to Click \u2013 Short blink for left-click, long blink for right-click.\n\u2705 Gaze Scrolling \u2013 Look up/down to scroll pages and reels.\n\u2705 Real-Time AI Adaptation \u2013 Model learns user-specific gaze patterns.\n\u2705 No Extra Hardware Needed \u2013 Works with a standard webcam.",
+    "technologies": [
+      "IBM Granite"
+    ],
+    "url": "https://lablab.ai/event/generative-ai-hackathon-with-ibm-granite/revolutionnaires/eye-nav",
+    "category": "education"
+  },
+  {
+    "title": "EduNova",
+    "team": "CogniverseAI",
+    "short_description": "An AI-powered system that transforms documents into interactive learning roadmaps with quizzes, chat interactions, and personalized study paths using RAG and Chroma.",
+    "full_description": "AI-Powered Interactive Roadmap Generation for Learning\n\nOur system transforms unstructured documents into structured, interactive learning roadmaps using Retrieval-Augmented Generation (RAG) and Chroma as a vector store. It helps learners navigate complex materials efficiently by consolidating key topics into logical, visually structured nodes.\n\nHow It Works:\nChunking & Metadata Extraction \u2013 Documents are split into chunks (~1000 tokens), each tagged with chunk_id, topic, keywords, and summary for efficient retrieval.\nRoadmap Generation \u2013 Instead of mapping chunks directly, the LLM organizes related content into structured learning nodes, ensuring a logical study flow. Each node is assigned a difficulty level to help learners prioritize topics effectively.\nQuiz-Based Reinforcement \u2013 AI-generated quizzes for each node encourage active learning. Questions reference chunk IDs to maintain accuracy and relevance.\nInteractive Q&A \u2013 Users can ask topic-specific questions, and the system retrieves relevant chunks to generate informed responses. If gaps exist, it suggests further reading.\nWeb-Based Visualization \u2013 The structured roadmap is displayed in an interactive web interface, allowing users to explore topics, track progress, attempt quizzes, and engage with AI-powered insights.\nThis system enhances comprehension, retention, and engagement by transforming static documents into an intuitive, adaptive, and interactive learning experience.",
+    "technologies": [
+      "Chroma",
+      "IBM Granite",
+      "DeepSeek R1",
+      "LangChain",
+      "OpenAI"
+    ],
+    "url": "https://lablab.ai/event/generative-ai-hackathon-with-ibm-granite/cogniverseai/edunova",
+    "category": "education"
+  },
+  {
+    "title": "MENTHOR",
+    "team": "318Mo",
+    "short_description": "MENTHOR is a secure, intuitive AI chatbot that revolutionizes corporate document management, cutting onboarding time by 95% and enabling instant access to information\u2014all within your company\u2019s internal network.",
+    "full_description": "MENTHOR is a game-changing AI-powered solution designed to transform how companies manage their internal processes, particularly when it comes to handling confidential documents and streamlining employee onboarding. Built on IBM GRANITE\u2019s advanced AI technology, MENTHOR acts as an intelligent, intuitive chatbot that empowers employees to instantly access the information they need\u2014whether it\u2019s policies, certifications, or internal guidelines\u2014reducing search time by up to 95%. What sets MENTHOR apart is its commitment to security: unlike other AI tools that require data to be stored on external cloud servers, MENTHOR ensures all information remains within your company\u2019s internal network, eliminating the risk of data breaches and ensuring compliance with the strictest security standards.\n\nThis solution is tailor-made for businesses that deal with large volumes of sensitive documentation, where efficiency and security are non-negotiable. By simplifying access to critical information, MENTHOR not only accelerates onboarding for new hires but also frees up senior employees from repetitive queries, allowing them to focus on high-value tasks. The result? A more productive, autonomous, and agile workforce.\nMENTHOR\u2019s fully customizable platform includes hardware installation, seamless document uploads, continuous updates, and AI improvements, making it a scalable solution for businesses of all sizes. While competitors like Workday, Slite AI, and Cassidy AI offer similar tools, they fall short in one critical area: security. MENTHOR\u2019s on-premise data management system ensures that no sensitive information ever leaves your company\u2019s control, giving you peace of mind in an era where data breaches are a constant threat.\n This isn\u2019t just another AI assistant\u2014it\u2019s a strategic investment in the future of your company. Let MENTHOR help you eliminate inefficiencies, reduce onboarding time, and unlock the full potential of your workforce.",
+    "technologies": [
+      "IBM watsonx Assistant",
+      "IBM Granite"
+    ],
+    "url": "https://lablab.ai/event/generative-ai-hackathon-with-ibm-granite/318mo/menthor",
+    "category": "education"
+  },
+  {
+    "title": "ElevateCV - AI Powered Resume and ATS Optimized",
+    "team": "AIfans",
+    "short_description": "AI Resume Optimizer assists job seekers in refining their applications by analysing skill gaps, checking ATS compatibility, providing AI-driven insights, and producing an enhanced resume and cover letter\u2014all within a single seamless platform.",
+    "full_description": "Job hunting can be challenging, especially when resumes don\u2019t align with job descriptions or fail to pass ATS (Applicant Tracking System) filters. AI Resume Optimizer simplifies this process by providing job seekers with an AI-driven tool to enhance their applications. Users upload their resumes and job descriptions, and the platform performs a skill gap analysis, identifying matched and mismatched skills and actionable insights. It also evaluates ATS compatibility, scoring the resume on experience match and formatting compliance. Additionally, an AI chat assistant answers user queries based on context. Finally, the platform generates an enhanced resume and cover letter, ensuring a better fit for job applications. Built with Streamlit, AI Resume Optimizer offers a seamless, efficient, and user-friendly experience for job seekers aiming to maximize their hiring potential.",
+    "technologies": [
+      "",
+      "IBM Granite",
+      "LangChain",
+      "watsonx.ai",
+      "AI/ML API",
+      "streamlit"
+    ],
+    "url": "https://lablab.ai/event/generative-ai-hackathon-with-ibm-granite/aifans/elevatecv-ai-powered-resume-and-ats-optimized",
+    "category": "education"
+  },
+  {
+    "title": "AI-Based-Teaching-Assistant",
+    "team": "StarField",
+    "short_description": "Our AI-based teaching assistant leverages DeepSeek Chat to provide real-time, personalized support to students and educators.",
+    "full_description": "Our AI-based teaching assistant leverages DeepSeek Chat to provide real-time, personalized support to students and educators. It can answer questions, provide explanations, and assist with lesson planning, making it an invaluable tool for modern education. \nKey Features:\nAdaptive Learning for Diverse Needs:\nCustomizes learning paths for students with learning disabilities (e.g., dyslexia, ADHD).\nProvides simplified explanations and alternative formats for complex topics.\nUser-Friendly Interface:\nDesigned with intuitive navigation and high-contrast visuals for users with visual impairments.\nCompatible with screen readers and other assistive technologies.\nLow-Bandwidth Compatibility:\nWorks seamlessly in low-bandwidth environments, making it accessible for students in rural or developing regions.\n24/7 Availability:\nAccessible anytime, anywhere, ensuring students in remote or underserved areas can benefit from personalized support.",
+    "technologies": [
+      "",
+      "DeepSeek V3"
+    ],
+    "url": "https://lablab.ai/event/fall-in-love-with-deepseek/starfield/ai-based-teaching-assistant",
+    "category": "education"
+  },
+  {
+    "title": "Revolutionizing Interactive Learning for Students",
+    "team": "RISC",
+    "short_description": "The application leverages the DeepSeek-67B model to generate quizzes with randomized question types, including multiple-choice, fill-in-the-blank, and drag-and-drop questions. The project is implemented using Python, Streamlit, and the CAMEL framework.",
+    "full_description": "The AI-powered quiz generator is designed to create interactive quizzes for\nyoung students. The application uses advanced AI models to generate ques-\ntions dynamically, ensuring a variety of question types and difficulty levels. The\nproject aims to provide an engaging and educational tool for students while\nshowcasing the capabilities of AI in educational technology.\nThis project is intended to be deployed in the market as a fully functional\nwebsite, allowing students to benefit from its interactive and adaptive learning\nfeatures. By collaborating with established learning platforms, the application\nwill integrate seamlessly into existing educational ecosystems, providing a scal-\nable and accessible solution for students worldwide. The goal is to enhance\nlearning experiences through AI-driven personalization and real-time feedback,\nfostering collaboration and engagement in educational environments.",
+    "technologies": [
+      "",
+      "CAMEL-AI",
+      "CAMEL",
+      "Generative Agents",
+      "streamlit"
+    ],
+    "url": "https://lablab.ai/event/fall-in-love-with-deepseek/risc/revolutionizing-interactive-learning-for-students",
+    "category": "education"
+  },
+  {
+    "title": "Profily",
+    "team": "Flare",
+    "short_description": "Profily is a personalized career consulting web application that leverages the power of DeepSeek R1 to provide tailored career advice based on user input.",
+    "full_description": "Profily is a personalized career consulting web application that leverages the power of DeepSeek R1 to provide tailored career advice based on user input. The tool helps users explore suitable career paths, industries, and actionable next steps based on their educational background, skills, preferences, and location.\n\nFeatures\nProvides personalized career advice.\nConsiders user preferences, location, and future goals.\nOffers links to relevant universities and scholarship sites.\nUtilizes DeepSeek R1, a powerful AI model, for generating career suggestions.\nTech Stack\nBackend: Flask (Python)\nAI Model: DeepSeek R1 (via aimlapi.com)\nEnvironment Variables: dotenv\nFrontend: HTML/CSS (with index.html template)",
+    "technologies": [
+      "AI/ML API",
+      "DeepSeek R1"
+    ],
+    "url": "https://lablab.ai/event/fall-in-love-with-deepseek/flare/profily",
+    "category": "education"
+  },
+  {
+    "title": "Teachmate AI- Smarter Teaching Better Learning",
+    "team": "Quidditch Seeker",
+    "short_description": "Teachmate AI is an AI-powered teaching assistant designed to support teachers and enhance student learning. Using the DeepSeek-R1, it provides real-time Q&A, and quizzes, making quality education accessible and scalable, even in remote areas.",
+    "full_description": "Teachmate AI is a groundbreaking AI-powered teaching assistant designed to transform education, particularly in developing countries where access to quality learning remains a challenge. Built using the DeepSeek-R1 model from AIMLAPI, this intelligent system enhances classroom experiences by providing real-time Q&A, interactive lessons, and personalized quizzes to support both teachers and students.\n\nIn many regions, such as Pakistan and other developing countries, millions of students lack access to well-trained teachers and engaging educational resources. Over 54 million students are enrolled in schools, yet a significant number struggle with outdated learning methods. Additionally, 23% of schools lack basic facilities like electricity and clean water, making technology-driven learning a distant dream for many. Teachers are overburdened with large class sizes, excessive administrative tasks, and limited time for personalized instruction, leading to inefficiencies in education delivery and student engagement.\nTeachmate AI acts as an on-demand AI tutor and classroom assistant, helping to:\n\u2705 Support Teachers \u2013 Reduces workload by assisting with explanations, assessments, and personalized learning guidance.\n\u2705 Enhance Student Learning \u2013 Provides detailed explanations, interactive learning materials, and real-time answers to student queries.\n\u2705 Bridge the Accessibility Gap \u2013 Designed for easy deployment on existing school computers, requiring minimal setup and no complex infrastructure.\n\u2705 Offline Functionality \u2013 Works without constant internet access, ensuring it remains accessible in rural and underprivileged areas.\n\nTeachmate AI is powered by DeepSeek-R1 from AIMLAPI, ensuring high-quality natural language understanding and response generation. The system is designed for quick deployment on standard school computers, eliminating the need for expensive hardware upgrades.\n\nWith Teachmate AI, we are not just building a toolwe are addressing education by leveraging AI.",
+    "technologies": [
+      "",
+      "streamlit",
+      "DeepSeek R1"
+    ],
+    "url": "https://lablab.ai/event/fall-in-love-with-deepseek/quidditch-seeker/teachmate-ai-smarter-teaching-better-learning",
+    "category": "education"
+  },
+  {
+    "title": "HearMe",
+    "team": "Seekit",
+    "short_description": "HearMe is an AI-powered app that helps children recognize abuse and connects them with trusted individuals for support and help.",
+    "full_description": "\"HearMe\" is an innovative app designed to help children understand and address the issue of sexual abuse. The app provides educational content, such as videos and simulations, to teach children about the difference between good and bad touch. It builds an emotional connection with the child, offering support and guidance on how to handle such situations. Furthermore, \"HearMe\" serves as a bridge, helping children overcome the shame and fear of speaking out by guiding them toward trusted individuals or authorities for help. The app ensures that children feel safe, supported, and empowered to take action\u00a0when\u00a0needed.",
+    "technologies": [
+      "DeepSeek V3",
+      "AI/ML API"
+    ],
+    "url": "https://lablab.ai/event/fall-in-love-with-deepseek/seekit/hearme",
+    "category": "education"
+  },
+  {
+    "title": "DeepLove AI",
+    "team": "Gen R1",
+    "short_description": "\ud835\uddd7\ud835\uddf2\ud835\uddf2\ud835\uddfd\ud835\udddf\ud835\uddfc\ud835\ude03\ud835\uddf2 \ud835\uddd4\ud835\udddc is an innovative \ud835\uddf1\ud835\uddee\ud835\ude01\ud835\uddf6\ud835\uddfb\ud835\uddf4 \ud835\uddee\ud835\ude00\ud835\ude00\ud835\uddf6\ud835\ude00\ud835\ude01\ud835\uddee\ud835\uddfb\ud835\ude01 that uses advanced AI models to eliminate awkward silences, boost dating confidence, and detect red flags in real time\u2014all while making flirting fun and effortless.",
+    "full_description": "\ud835\uddd7\ud835\uddf2\ud835\uddf2\ud835\uddfd\ud835\udddf\ud835\uddfc\ud835\ude03\ud835\uddf2 \ud835\uddd4\ud835\udddc: \ud835\udde5\ud835\uddf2\ud835\ude03\ud835\uddfc\ud835\uddf9\ud835\ude02\ud835\ude01\ud835\uddf6\ud835\uddfc\ud835\uddfb\ud835\uddf6\ud835\ude07\ud835\uddf6\ud835\uddfb\ud835\uddf4 \ud835\udde0\ud835\uddfc\ud835\uddf1\ud835\uddf2\ud835\uddff\ud835\uddfb \ud835\uddd7\ud835\uddee\ud835\ude01\ud835\uddf6\ud835\uddfb\ud835\uddf4 \ud835\ude04\ud835\uddf6\ud835\ude01\ud835\uddf5 \ud835\uddd4\ud835\udddc\n\ud835\uddd7\ud835\uddf2\ud835\uddf2\ud835\uddfd\ud835\udddf\ud835\uddfc\ud835\ude03\ud835\uddf2 \ud835\uddd4\ud835\udddc is an intelligent dating assistant designed to eliminate awkward silences, boost confidence, and enhance communication skills. The platform leverages cutting-edge AI models, including \ud835\uddd7\ud835\uddf2\ud835\uddf2\ud835\uddfd\ud835\udde6\ud835\uddf2\ud835\uddf2\ud835\uddf8 \ud835\udde5\ud835\udfed, \ud835\udde2\ud835\uddfd\ud835\uddf2\ud835\uddfb\ud835\uddd4\ud835\udddc \ud835\uddea\ud835\uddf5\ud835\uddf6\ud835\ude00\ud835\uddfd\ud835\uddf2\ud835\uddff \ud835\ude03\ud835\uddf6\ud835\uddee \ud835\uddd4\ud835\udddc/\ud835\udde0\ud835\udddf \ud835\uddd4\ud835\udde3\ud835\udddc \ud835\uddf8\ud835\uddf2\ud835\ude06, and the \ud835\udddf\ud835\udddf\ud835\uddee\ud835\udde0\ud835\uddd4 \ud835\udde9\ud835\uddfc\ud835\uddf6\ud835\uddf0\ud835\uddf2 \ud835\udde0\ud835\uddfc\ud835\uddf1\ud835\uddf2\ud835\uddf9, to provide users with real-time conversation guidance, AI-driven flirting strategies, and safety insights.\n\n\ud83d\udfe2 \ud835\uddde\ud835\uddf2\ud835\ude06 \ud835\uddd9\ud835\uddf2\ud835\uddee\ud835\ude01\ud835\ude02\ud835\uddff\ud835\uddf2\ud835\ude00:\n\n\ud835\uddd4\ud835\udddc \ud835\udde9\ud835\uddfc\ud835\uddf6\ud835\uddf0\ud835\uddf2 \ud835\uddd4\ud835\ude00\ud835\ude00\ud835\uddf6\ud835\ude00\ud835\ude01\ud835\uddee\ud835\uddfb\ud835\ude01 \u2013 Engage in seamless, natural conversations with AI-powered voice interaction.\n\ud835\udde5\ud835\uddf2\ud835\uddf1 \ud835\uddd9\ud835\uddf9\ud835\uddee\ud835\uddf4 \ud835\udde5\ud835\uddf2\ud835\uddfd\ud835\uddfc\ud835\uddff\ud835\ude01 \ud835\uddda\ud835\uddf2\ud835\uddfb\ud835\uddf2\ud835\uddff\ud835\uddee\ud835\ude01\ud835\uddf6\ud835\uddfc\ud835\uddfb \u2013 Detects potential risks in chats and provides detailed safety insights.\n\ud835\udde5\ud835\uddf2\ud835\uddee\ud835\uddf9-\ud835\udde7\ud835\uddf6\ud835\uddfa\ud835\uddf2 \ud835\uddd7\ud835\uddee\ud835\ude01\ud835\uddf6\ud835\uddfb\ud835\uddf4 \ud835\udde6\ud835\uddf0\ud835\uddf2\ud835\uddfb\ud835\uddee\ud835\uddff\ud835\uddf6\ud835\uddfc \ud835\udde6\ud835\uddf6\ud835\uddfa\ud835\ude02\ud835\uddf9\ud835\uddee\ud835\ude01\ud835\uddfc\ud835\uddff \u2013 Helps users practice and refine their conversational skills in a risk-free environment.\n\ud835\uddd4\ud835\udddc \ud835\uddd9\ud835\uddf9\ud835\uddf6\ud835\uddff\ud835\ude01\ud835\uddf6\ud835\uddfb\ud835\uddf4 \ud835\uddd6\ud835\uddfc\ud835\uddee\ud835\uddf0\ud835\uddf5 \u2013 Personalized coaching tailored to different dating styles, from playful banter to deep emotional connections.\n\ud835\uddd6\ud835\uddfc\ud835\uddfb\ud835\uddf3\ud835\uddf6\ud835\uddf1\ud835\uddf2\ud835\uddfb\ud835\uddf0\ud835\uddf2 \ud835\uddd5\ud835\uddfc\ud835\uddfc\ud835\ude00\ud835\ude01\ud835\uddf2\ud835\uddff \u2013 AI-driven training to help users overcome social anxiety and master real-life dating interactions.\nWhat sets \ud835\uddd7\ud835\uddf2\ud835\uddf2\ud835\uddfd\ud835\udddf\ud835\uddfc\ud835\ude03\ud835\uddf2 \ud835\uddd4\ud835\udddc apart is its ability to adapt to different dating styles, offering personalized coaching and real-time assistance that ensures conversations stay engaging and effortless. The platform is deployed on Vercel, with a React.js frontend and Python-based AI processing, ensuring a smooth and responsive user experience.\n\nBy combining AI-powered coaching, real-time feedback, and advanced conversational insights, \ud835\uddd7\ud835\uddf2\ud835\uddf2\ud835\uddfd\ud835\udddf\ud835\uddfc\ud835\ude03\ud835\uddf2 \ud835\uddd4\ud835\udddc transforms dating into a stress-free, enjoyable experience, empowering users to communicate with confidence, detect red flags, and build meaningful connections. \ud83d\ude80",
+    "technologies": [
+      "",
+      "DeepSeek R1",
+      "Whisper",
+      "Groq",
+      "streamlit",
+      "Llama 3.2",
+      "OpenAI"
+    ],
+    "url": "https://lablab.ai/event/fall-in-love-with-deepseek/gen-r1/deeplove-ai",
+    "category": "education"
+  },
+  {
+    "title": "AI Lawyer Chatbot",
+    "team": "DeepDevs",
+    "short_description": "AI Lawyer Chatbot uses Groq's DeepSeek and Camel AI to provide accurate legal insights with document analysis and RAG-based responses",
+    "full_description": "AI Lawyer Chatbot is an AI-powered legal assistant that helps users navigate legal documents and receive accurate legal insights. It leverages Groq\u2019s DeepSeek model and Camel AI for intelligent legal reasoning while incorporating a Retrieval-Augmented Generation (RAG) system to provide context-aware responses. Users can upload legal PDFs, ask legal questions, and receive reliable answers based on the extracted document content. The chatbot strictly follows the provided context, ensuring factual and legally relevant responses. With FAISS-based vector search and Hugging Face embeddings, it efficiently retrieves relevant legal text, making legal assistance more accessible, efficient, and user-friendly.",
+    "technologies": [
+      "",
+      "Groq",
+      "streamlit",
+      "DeepSeek R1"
+    ],
+    "url": "https://lablab.ai/event/fall-in-love-with-deepseek/deepdevs/ai-lawyer-chatbot",
+    "category": "education"
+  },
+  {
+    "title": "StoryWeave",
+    "team": "StoryWeave",
+    "short_description": "StoryWeave revolutionizes storytelling with AI-driven narratives and real-time reader interaction. Our platform creates dynamic stories, allowing readers to engage through comments and playback, creating a unique, collaborative experience.",
+    "full_description": "StoryWeave is an innovative platform that transforms the traditional storytelling experience by merging artificial intelligence with interactive reader engagement. Our solution addresses the growing demand for personalized, engaging content creation in the digital age.\nThe platform allows users to generate stories across multiple genres including Fantasy, Sci-Fi, Mystery, Romance, and more. What sets StoryWeave apart is its chapter-by-chapter generation system that responds to reader interaction. Users can comment on each chapter, influencing the story's direction and creating a truly collaborative storytelling experience.\nKey features include:\n\nAI-powered story generation with customizable styles and genres\nInteractive chapter progression system\nReal-time reader commenting and engagement\nStory playback functionality for shared experiences\nUser-friendly dashboard for story management\nMulti-genre support with style customization\n\nThe technical implementation uses Next.js and React for the frontend, ensuring a smooth, responsive user experience. The platform's architecture is designed to scale, supporting multiple users and stories simultaneously while maintaining performance.\nOur recent addition of the story playback feature transforms static narratives into interactive experiences, allowing readers to engage with stories in a new way. This feature makes StoryWeave particularly valuable for educational settings, creative writing workshops, and entertainment purposes.\nFuture development plans include mobile app integration, audio narration capabilities, and enhanced AI personalization to create even more immersive storytelling experiences. StoryWeave aims to build a community of storytellers and readers who collaborate to create unique narratives in ways never before possible.",
+    "technologies": [
+      "",
+      "AI/ML API",
+      "Vercel",
+      "DeepSeek R1"
+    ],
+    "url": "https://lablab.ai/event/fall-in-love-with-deepseek/storyweave/storyweave",
+    "category": "education"
+  },
+  {
+    "title": "Deep Lens",
+    "team": "The Code of Love",
+    "short_description": "A solar powered, offline learning hub using Wi-Fi mesh and Raspberry Pi to deliver educational content in underserved areas.",
+    "full_description": "Deep Lens is a solar-powered, offline digital learning hub designed to bridge the digital divide in underserved regions. Using Raspberry Pi servers and Wi-Fi mesh networking, it creates a local intranet where students can access preloaded educational content such as videos, e-books, and interactive lessons without needing an internet connection.\n\nPowered by renewable energy, Deep Lens ensures uninterrupted learning, even in off-grid areas. The system supports multiple users simultaneously, allowing schools and communities to benefit from cost-effective digital education. When internet access is available, it can sync progress and update content.\n\nWith localized learning materials, AI-assisted tutoring, and an easy-to-deploy design, Deep Lens provides a scalable, affordable, and sustainable solution for quality education. By empowering students and teachers with digital tools, Deep Lens helps build a future where every child has access to knowledge, regardless of location.",
+    "technologies": [
+      "AI/ML API",
+      "DeepSeek R1"
+    ],
+    "url": "https://lablab.ai/event/fall-in-love-with-deepseek/the-code-of-love/deep-lens",
+    "category": "education"
+  },
+  {
+    "title": "Orion-Operational Response Intelligence Network",
+    "team": "BlackBox",
+    "short_description": "ORION automates space operations using real-time telemetry processing, AI-driven anomaly detection, predictive maintenance (LSTM), and RL-based decision-making, visualized via a Streamlit dashboard.",
+    "full_description": "ORION: AI-Driven Space Operations Automation is an AI-powered system that enhances space mission safety, efficiency, and automation. It processes real-time telemetry data using Kafka, detects anomalies with an Autoencoder model, predicts failures with an LSTM-based predictive maintenance system, and enables autonomous decision-making using Reinforcement Learning (PPO). ORION's Streamlit dashboard provides real-time mission insights, minimizing human errors and optimizing spacecraft operations. Additionally, AutoGen multi-agent AI enhances decision-making and automation. This solution reduces operational costs, improves mission reliability, and scales for satellite fleet management, interplanetary missions, and deep-space exploration. ORION is designed for space agencies, aerospace companies, and research institutions, ensuring mission success and sustainability.",
+    "technologies": [
+      "Reinforcement Learning",
+      "streamlit",
+      "AutoGen"
+    ],
+    "url": "https://lablab.ai/event/aistronauts-space-agents-on-a-mission/blackbox/orion-operational-response-intelligence-network",
+    "category": "education"
+  },
+  {
+    "title": "EXOMind",
+    "team": "Space Messi",
+    "short_description": "EXOMind enables researchers to deepen their knowledge regarding habitable planets in\nspace. Access reliable research information, SQL databases and see how your research results link with each other on a knowledge graph.",
+    "full_description": "EXOMind is a research tool for exploring habitable planets. It allows users to ask questions and generates structured knowledge notes with titles and answers. As research progresses, agents extract tags from notes, linking them into a dynamic knowledge graph. Researchers receive follow-up questions to deepen their exploration.\n\nThe tool aggregates data from international space agencies, addressing the complexity of space research by structuring information in an interconnected way. Notes are visualized in Obsidian for intuitive navigation.\n\nMulti-Agent System\n1.  Research Agent \u2013 Gathers data from three tools:\n-  Web Search Agent (Tavily API) \u2013 Scrapes and aggregates web data.\n- SQL Querying Agent \u2013 Searches NASA's Exoplanet Archive (5,832 confirmed planets).\n-  Vector Search Agent \u2013 Analyzes 500+ scientific papers.\n\n2. Noting Agent \u2013 Structures research into concise knowledge notes.\n3. Tagging Agent \u2013 Identifies relationships with notes, linking them bidirectionally.\n4. Response Agent \u2013 Generates three follow-up questions to expand research.\n\nFrontend Features\n- Chat Window \u2013 Displays research history, chain of thought, and follow-up questions.\n- Obsidian Visualization \u2013 iFrame rendering of the knowledge graph.\n\nBy structuring research into linked notes, EXOMind simplifies complex space exploration topics and enhances knowledge discovery.",
+    "technologies": [
+      "LangChain",
+      "",
+      "OpenAI"
+    ],
+    "url": "https://lablab.ai/event/aistronauts-space-agents-on-a-mission/space-messi/exomind",
+    "category": "education"
+  },
+  {
+    "title": "VISION  AI-Powered Universe Simulation",
+    "team": "VISION",
+    "short_description": "VISION is an advanced AI-powered simulation that allows users to explore the evolution of the universe across time. By utilizing real astronomical data, users can witness the formation of galaxies, stars, and cosmic events in an interactive 3D environment",
+    "full_description": "VISION is an innovative AI-driven platform designed to simulate the evolution of the universe over time. By integrating real-time astronomical data from leading space observatories like Hubble and James Webb, VISION provides an interactive and immersive experience for users to explore cosmic events such as galaxy formation, supernovae, and planetary evolution.\n\nUtilizing cutting-edge AI models and visualization technologies like AR/VR, users can \u201ctravel through time\u201d and witness key astronomical phenomena as they occurred millions or even billions of years ago. The platform is designed for researchers, educators, and space enthusiasts, offering detailed insights into cosmic transformations.\n\nUnlike traditional astronomy visualization tools, VISION not only provides historical simulations but also uses AI to predict future celestial changes, making it a valuable resource for both education and scientific discovery.",
+    "technologies": [
+      "AI21 Labs",
+      "GET3D"
+    ],
+    "url": "https://lablab.ai/event/aistronauts-space-agents-on-a-mission/vision/vision-ai-powered-universe-simulation",
+    "category": "education"
+  },
+  {
+    "title": "SPACE SCIENCE CHAT BOT",
+    "team": "Galaxy Labs",
+    "short_description": "This is a Space Science Chatbot that uses AI to answer questions about astronomy and space sciences. It processes PDF documents, creates a searchable index, and generates responses tailored to different audience levels (kids, students, and professionals).",
+    "full_description": "The limited accessibility of space-related data and insights presents a critical challenge, impeding researchers, educators, and the public from driving innovation, advancing education, and making informed decisions in the domain of space exploration. To address this challenge, we have developed an advanced educational chatbot designed to cater to diverse learning levels, including students, professionals, and children. This intelligent chatbot dynamically adapts to the user's educational background, enabling individuals to ask space-related questions and receive accurate, personalized responses. By simplifying complex space concepts into clear, comprehensible explanations, the chatbot makes space education more accessible. It empowers learners of all ages and backgrounds to explore the intricacies of space science, fostering curiosity and facilitating effortless knowledge acquisition.",
+    "technologies": [
+      "",
+      "Generative AI Studio",
+      "LangChain",
+      "streamlit",
+      "Assistants API"
+    ],
+    "url": "https://lablab.ai/event/aistronauts-space-agents-on-a-mission/galaxy-labs/space-science-chat-bot",
+    "category": "education"
+  },
+  {
+    "title": "CosmoBot",
+    "team": "AIAgents",
+    "short_description": "An AI-powered assistant providing streamlined access to diverse space data. It simplifies complex information, making space exploration insights accessible and engaging for researchers, educators, and space enthusiasts alike.",
+    "full_description": "The Space Information AI Assistant addresses the challenge of fragmented and inaccessible space data by providing a centralized, AI-driven platform. This innovative solution fetches and organizes data from reliable sources such as NASA APIs, space news outlets, and astronomy image libraries. The platform simplifies complex datasets, making them easy to understand and actionable for researchers, educators, and the public. Users can engage in interactive space-related conversations, stay updated with real-time space news, explore upcoming events, and even track the International Space Station. By harnessing the power of AI, the assistant ensures efficient data retrieval and personalized insights, fostering a deeper understanding and appreciation of space science.",
+    "technologies": [
+      "LangChain",
+      "Gemini AI",
+      "CrewAI"
+    ],
+    "url": "https://lablab.ai/event/aistronauts-space-agents-on-a-mission/aiagents/cosmobot",
+    "category": "education"
+  },
+  {
+    "title": "GalaticIQ",
+    "team": "SpaceZ",
+    "short_description": "GalacticIQ - Unlocking the Universe, One Question at a Time. Presented by Team SpaceZ, is an AI-powered space education platform for researchers, educators, and students. It provides information on space data based on the persona.",
+    "full_description": "What is GalacticIQ?\nGalacticIQ is an AI-powered space education platform designed to make space data and research easily accessible for researchers, educators, and students. It acts as an intelligent conversational assistant that simplifies access to space-related information, providing real-time insights on planetary studies, space missions, celestial events, and research papers.\n\nDeveloped by Team SpaceZ, GalacticIQ is more than just a chatbot\u2014it\u2019s a revolutionary AI companion that enables users to interact naturally with complex space data. Whether it's retrieving the latest astrophysics research, summarizing key mission updates, or creating interactive lesson plans, GalacticIQ makes space exploration knowledge intuitive and engaging. \n\nThe Problem We\u2019re Solving\nAccessing and interpreting space-related data is challenging for many individuals. Researchers struggle to find structured insights from vast amounts of academic papers and satellite data. Educators need simplified explanations for students, while students often find it difficult to grasp complex space concepts. Traditional search engines don\u2019t offer contextual understanding or conversational explanations tailored to different knowledge levels.\n\nThe GalacticIQ Solution\nGalacticIQ is built as a smart AI assistant that provides accurate, context-aware responses. Using Natural Language Processing (NLP) and the Crew AI Agentic Framework, it allows users to ask space-related questions conversationally and receive precise, reliable answers in real-time.\n\nWith data sourced from NASA, scientific journals like arxiv, and Large Language Models (LLMs) like ChatGPT-4o, GalacticIQ ensures that both advanced researchers and young students receive tailored responses suited to their expertise level.\n\nExample Queries:\nFor Researchers: \"Provide the latest research papers on dark matter in the last five years.\"\nFor Educators: \"Summarize the latest developments in space tourism.\"\nFor Students: \"Why is Mars red?\"",
+    "technologies": [
+      "",
+      "Vercel",
+      "CrewAI",
+      "AI/ML API",
+      "ChatGPT",
+      "OpenAI"
+    ],
+    "url": "https://lablab.ai/event/aistronauts-space-agents-on-a-mission/spacez/galaticiq",
+    "category": "education"
+  },
+  {
+    "title": "AI Space Data Explorer Smart Insights from NASA",
+    "team": "Binge Thinkers",
+    "short_description": "AI Space Data Explorer enhances public access to space data using LLMs (Phi-2, Llama, OpenChat), LangChain + NASA APIs for real-time insights, and Streamlit for visualization. Users can ask questions and explore space topics easily.",
+    "full_description": "AI Space Data Explorer \ud83c\udf0c\ud83d\ude80\n\nAI Space Data Explorer is an advanced AI-powered platform designed to make space data more accessible and understandable for students, researchers, and space enthusiasts. Organizations like NASA and ESA generate vast amounts of data, but navigating and interpreting this information remains a challenge for the general public. Our solution leverages cutting-edge AI models and frameworks to simplify data retrieval, analysis, and visualization, making space insights more interactive and user-friendly.\n\n\ud83d\udd39 Key Features:\n\u2705 Conversational AI \u2013 Users can ask space-related questions and receive real-time insights from NASA and ESA datasets. Llama models, integrated via LangGraph and Groq API, ensure intelligent, context-aware responses.\n\u2705 Smart Visualization \u2013 The AI transforms complex space data into intuitive graphs, charts, and reports, making it easier to analyze patterns and trends.\n\u2705 Personalized Space Learning \u2013 The platform adapts to user preferences, recommending space topics, celestial events, and scientific discoveries based on individual interests.\n\u2705 Seamless Data Retrieval \u2013 Using LangChain and NASA APIs, the system fetches and processes real-time space data, ensuring accuracy and relevance.\n\u2705 Interactive Dashboard \u2013 Built with Streamlit, the user-friendly interface allows smooth interaction with AI-driven insights and visualizations.\n\n\ud83d\udd27 Tech Stack & AI Models:\n\nLlama (via LangGraph & Groq API) \u2013 Powers intelligent Q&A interactions.\nLangChain + NASA APIs \u2013 Retrieves and processes real-time space data.\nStreamlit \u2013 Provides a sleek, interactive dashboard for exploration.\n\ud83c\udfaf Impact:\nAI Space Data Explorer democratizes space knowledge, breaking down barriers to access and interpretation. By integrating AI-driven insights with real-time data visualization, the platform fosters curiosity, supports research, and enhances space education for all. \ud83d\ude80",
+    "technologies": [
+      "LangChain",
+      "",
+      "Llama 3",
+      "streamlit"
+    ],
+    "url": "https://lablab.ai/event/aistronauts-space-agents-on-a-mission/binge-thinkers/ai-space-data-explorer-smart-insights-from-nasa",
+    "category": "education"
+  },
+  {
+    "title": "CosmoGuide AI",
+    "team": "GoalDiggers",
+    "short_description": "CosmoGuide: Your AI space companion. Using NASA data and interactive visuals, we make space exploration accessible. Track the ISS, view astronomy photos, monitor asteroids, and get expert AI insights about the cosmos all in one place.",
+    "full_description": "CosmoGuide is an innovative AI-powered space exploration platform that transforms how we interact with cosmic data. By seamlessly integrating real-time NASA APIs, advanced AI technologies, and interactive visualizations, the platform brings the universe closer to everyday users. The application provides a comprehensive space exploration experience through dynamic data cards, a 3D ISS tracker, live asteroid monitoring, and an intelligent AI assistant that can explain complex space phenomena in an accessible, engaging manner.\nDeveloped during the AI for Astronauts Hackathon, CosmoGuide leverages cutting-edge technologies like Google's Gemini AI and NASA's open data APIs to create an immersive learning and exploration tool. The platform features three specialized AI agents - Explorer, Analyst, and Teacher - each offering unique perspectives on space science. From displaying the daily Astronomy Picture of the Day to tracking the International Space Station's real-time location and providing up-to-the-minute space weather alerts, CosmoGuide makes space exploration accessible to everyone, regardless of their scientific background.\n\nKey Highlights:\n- Real-time space data visualization from multiple NASA APIs\n- Interactive 3D globe tracking the International Space Station\n- AI-powered conversational assistant with three specialized modes\n- Daily Astronomy Picture of the Day\n- Near-Earth Object and asteroid tracking\n- Live Mars rover photo updates\n- Space weather and solar activity alerts\n\nPerfect For:\n- Space enthusiasts\n- Students and educators\n- Science communicators\n- Amateur astronomers\n- Anyone curious about space and technology\n\nUnique Value Proposition:\nCosmoGuide bridges the gap between complex scientific data and public understanding, making space exploration accessible, interactive, and exciting through AI-powered insights and real-time visualizations.",
+    "technologies": [
+      "",
+      "Generative Agents",
+      "Vercel",
+      "AI/ML API",
+      "Gemini AI"
+    ],
+    "url": "https://lablab.ai/event/aistronauts-space-agents-on-a-mission/goaldiggers/cosmoguide-ai",
+    "category": "education"
+  },
+  {
+    "title": "Space Data AI Assistant",
+    "team": "SpaceHeros",
+    "short_description": "AI Space Tutor is an intelligent chatbot designed to simplify access to space-related data for researchers, educators, and space enthusiasts. Powered by AI Agents, it provides instant responses to space-related queries.",
+    "full_description": "The AI-Powered Space Tutor simplifies access to space data for researchers, educators, and enthusiasts. Using Groq API, OpenAI models, NASA datasets, and Tavily search, it delivers AI-driven insights and real-time space exploration knowledge through an intuitive Streamlit UI.\n\nA RAG model ensures accurate, context-aware responses, while the FastAPI backend enables seamless interaction. This project democratizes space education, making complex data more accessible and engaging.\nTechnologies Used:\nPython, FastAPI, Streamlit\nTavily\nLangchain\nLangGraph\nUnicorn\nGroq API (Llama 3), OpenAI (GPT-4o)\nNASA API, Tavily Search API\nLocal & cloud deployment",
+    "technologies": [
+      "",
+      "LangChain",
+      "Groq",
+      "streamlit",
+      "OpenAI"
+    ],
+    "url": "https://lablab.ai/event/aistronauts-space-agents-on-a-mission/spaceheros/space-data-ai-assistant",
+    "category": "education"
+  },
+  {
+    "title": "AI Model for Space Education",
+    "team": "Hackfinity",
+    "short_description": "An AI-driven space education model offers personalized learning, interactive simulations, and real-time data, enhancing engagement in space science, astronomy, and astronautics with dynamic AI tools.",
+    "full_description": "Overview\nThe AI-powered space education platform is an innovative learning system designed to make space science, astronomy, and astronautics more engaging and accessible. By leveraging advanced AI technologies, this platform provides personalized learning experiences, real-time data analysis, and interactive simulations that immerse users in space exploration.\n\nKey Features\nPersonalized Learning \u2013 AI-driven algorithms tailor content based on users' interests, skill levels, and learning preferences.\nInteractive Simulations \u2013 Virtual models of planetary systems, spacecraft, and celestial events enhance understanding through hands-on experiences.\nReal-Time Space Data \u2013 Integration with satellite feeds, space agencies' databases, and live astronomy events provides up-to-date insights.\nAI Tutors & Chatbots \u2013 Conversational AI assists learners with queries, explanations, and guided lessons.\nAugmented & Virtual Reality (AR/VR) \u2013 Immersive environments allow users to explore planets, space missions, and cosmic phenomena.\nCitizen Science & Research Collaboration \u2013 Enables users to participate in real-world research projects and contribute to space discoveries.\nTarget Audience\nStudents and educators\nAstronomy enthusiasts\nSpace research organizations\nScience communicators and media\nImpact & Goals\nThis project aims to bridge the gap between theoretical learning and practical exploration, making space education accessible, engaging, and data-driven. By integrating AI, it fosters curiosity and deepens the understanding of space sciences, inspiring the next generation of astronomers, engineers, and space explorers.",
+    "technologies": [
+      "Gemini AI",
+      "ChatGPT",
+      "AI/ML API"
+    ],
+    "url": "https://lablab.ai/event/aistronauts-space-agents-on-a-mission/hackfinity/ai-model-for-space-education",
+    "category": "education"
+  },
+  {
+    "title": "AstroMind",
+    "team": "The GOAT",
+    "short_description": "AstroMind: Your AI-Powered Space Mission Assistant \ud83d\ude80\nAIstronauts is an educational AI assistant that fetches real-time space facts, generates sci-fi stories, simulates space missions, and suggests relevant visuals.",
+    "full_description": "AstroMind: Your AI-Powered Space Mission Assistant \ud83d\ude80\n\nAstroMind is an educational AI assistant designed to make space exploration fun and interactive. It consists of multiple AI agents that work together to fetch real-time space facts from NASA, ESA, and SpaceX, generate sci-fi stories using real space data, simulate space missions with detailed blueprints, and suggest relevant space visuals. By integrating these capabilities, AstroMind provides an engaging learning experience for students, educators, and space enthusiasts. Whether you're exploring Mars rover data, crafting a sci-fi adventure, or planning a mission to Jupiter, AstroMind brings the wonders of space closer to everyone through AI-powered storytelling and simulations.",
+    "technologies": [
+      "",
+      "streamlit",
+      "Mistral AI"
+    ],
+    "url": "https://lablab.ai/event/aistronauts-space-agents-on-a-mission/the-goat/astromind",
+    "category": "education"
+  },
+  {
+    "title": "Space Tourism Personal Assistant",
+    "team": "Stellar Solo",
+    "short_description": "This Assistant bridges the gap between aspiring space tourists and the vast universe of information they need. It\u2019s not just a tool\u2014it\u2019s an educational experience that inspires curiosity and prepares users for their cosmic adventures.",
+    "full_description": "Space Tourism Personal Assistant: Your Ultimate Companion for Space Adventures \ud83d\ude80\n\nAs space tourism becomes a reality, there is a growing need for tools that help future space tourists plan their journeys, stay informed, and engage with the universe's wonders. The Space Tourism Personal Assistant is a one-stop solution designed to assist users in navigating the complexities of space travel while providing an immersive and educational experience.\n\nThis app integrates cutting-edge APIs, machine learning, and gamification to offer a seamless and interactive experience. Whether you're preparing for a trip to space or simply curious about the cosmos, this app has everything you need:\n\nPersonalized Itinerary : A detailed schedule for your space journey, complete with tips to ensure a smooth and memorable experience.\nSpace Facts : Daily updates from NASA\u2019s Astronomy Picture of the Day, accompanied by explanations to deepen your understanding of the universe.\nReal-Time Weather Updates : Access current weather data for launch sites using the OpenWeatherMap API, helping you prepare for your departure.\nMission Tracking : Stay updated on the latest SpaceX missions, including launch details, webcasts, and mission objectives.\nInteractive Quiz : Test your knowledge of space exploration with engaging trivia questions, making learning fun and rewarding.\nPredictive Analytics : Use machine learning to predict temperature trends at launch sites, ensuring you\u2019re ready for any conditions.\nVirtual Tours : Explore the solar system with NASA\u2019s Eyes on the Solar System tool, offering an immersive 3D experience of planets, moons, and spacecraft.\n\nThe app is built using FastAPI for the backend and Streamlit for the frontend, ensuring a clean, intuitive, and user-friendly interface.",
+    "technologies": [
+      "streamlit",
+      "AI/ML API"
+    ],
+    "url": "https://lablab.ai/event/aistronauts-space-agents-on-a-mission/stellar-solo/space-tourism-personal-assistant",
+    "category": "education"
+  },
+  {
+    "title": "SPACEICALER AI",
+    "team": "Spaceicaler",
+    "short_description": "Spaceicaler is an AI Agent chatbot leveraging NASA API to simplify and democratize access to space-related data, enabling researchers, educators, and the public to gain insights effortlessly.",
+    "full_description": "The Spaceicaler is an AI Agent Chatbot for Enhancing Citizen Access to Space Data addresses the challenge of making complex space data accessible and understandable for everyone.\nBy integrating with the NASA API, the chatbot provides real-time information on space missions, celestial events, and research data.\nUsers can engage in natural language conversations to retrieve information, visualize datasets, and receive personalized recommendations.\nThe system simplifies the interpretation of vast and scattered data, fostering interest in space exploration and supporting educational and research initiatives.",
+    "technologies": [
+      "Text Generation Web UI",
+      "Assistants API",
+      "AI/ML API"
+    ],
+    "url": "https://lablab.ai/event/aistronauts-space-agents-on-a-mission/spaceicaler/spaceicaler-ai",
+    "category": "education"
+  },
+  {
+    "title": "CosmicCompass",
+    "team": "Blitz Curler",
+    "short_description": "CosmicCompass delivers daily space images via the NASA API, enables users to search for celestial images, features an AI chatbot for space-related queries, and provides real-time space weather updates\u2014all in one interactive platform.",
+    "full_description": "CosmicCompass is an AI-powered platform that brings space exploration closer to users by providing real-time insights into the cosmos. Using the NASA API, it delivers daily space images and allows users to search for celestial objects like galaxies and nebulae. The integrated AI chatbot answers space-related queries, making learning about the universe interactive and engaging.\n\nAdditionally, CosmicCompass features a Live Space Weather Station that provides real-time updates on space conditions, including current CME activity, solar activity status, and aurora forecasts. Users can access detailed reports from NASA\u2019s Community Coordinated Modeling Center (CCMC DONKI), tracking solar events such as Coronal Mass Ejections (CMEs) and their potential impacts on spacecraft like OSIRIS-APEX. Designed for space enthusiasts, students, and researchers, CosmicCompass offers an intuitive way to explore and understand space through AI-driven insights and stunning visual content.",
+    "technologies": [
+      "Gemma 2",
+      "Assistants API"
+    ],
+    "url": "https://lablab.ai/event/aistronauts-space-agents-on-a-mission/blitz-curler/cosmiccompass",
+    "category": "education"
+  },
+  {
+    "title": "Maa Connect",
+    "team": "Maa Connect",
+    "short_description": "An innovative solution for empowering underserved communities in managing their own network infrastructure. This presentation will explore the problem, solution, and potential impact of Maa Connect+.",
+    "full_description": "Maa Connect is a lightweight, multilingual AI-powered network management assistant designed to empower teachers and non-technical users in underserved rural and remote communities. The platform provides accessible learning resources on network management and optimization while enabling users to address simple network issues independently. By focusing on computational efficiency and adaptability, Maa Connect aims to bridge the digital divide and ensure uninterrupted access to online education.\n\nKey Features\nNetwork Learning Platform: Offers user-friendly resources to help users understand network management concepts and best practices.\nAI Network Assistant: Provides step-by-step guidance for troubleshooting and fixing common network issues.\nMultilingual Support: Ensures accessibility by supporting multiple languages, catering to the linguistic diversity of target communities.\nLightweight and Efficient: Designed for low-resource environments, requiring minimal computational power.\nAdaptability: Configurable for diverse network setups and requirements.\nProblem Statement\nMany underserved communities face restricted access to network management knowledge and skilled practitioners. When network problems occur, internet-dependent education often halts for extended periods, disrupting learning. Maa Connect addresses this by equipping users with essential skills and tools to maintain and optimize their networks, overcoming linguistic and cultural barriers.",
+    "technologies": [
+      "TinyLlama"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon/wfcs/maa-connect",
+    "category": "education"
+  },
+  {
+    "title": "SchoolBridge",
+    "team": "Team AI Network",
+    "short_description": "SchoolBridge is an AI solution that connects underserved schools to the internet, streamlining digital infrastructure planning and ensuring equal access to education, healthcare, and governance.",
+    "full_description": "The world is rapidly moving towards digitization, but millions of schools in underserved or remote\nregions remain disconnected from the internet. This lack of connectivity limits students' access to\ninformation, opportunities, and choices, creating a significant divide in global education equity.\nTo bridge this gap, our team has developed an SchoolBridge that focuses on three primary\nobjectives:\n1. Connecting Schools in Underserved Regions:\nLeveraging advanced data analytics and machine learning, our application identifies\nschools lacking internet connectivity and prioritizes them based on geographical,\nsocioeconomic, and infrastructural factors. By doing so, it ensures every student has access\nto online resources, digital tools, and global opportunities for growth.\n2. Predicting and Raising Procurement Requirements:\nThe application provides actionable insights for procurement planning, predicting digital\ninfrastructure needs such as servers, routers, and internet bandwidth based on the number\nof students in each school. This feature simplifies infrastructure provisioning, enabling\nefficient and cost-effective deployment in underserved areas.\n3. Optimizing Network Lifecycles:\nSchoolBridge enhances the efficiency and sustainability of public sector networks by\nstreamlining their planning, operations, and maintenance. This lifecycle optimization\nreduces downtime, minimizes costs, and ensures long-term reliability of digital\ninfrastructure.",
+    "technologies": [
+      "GPT-3.5",
+      "streamlit",
+      "OpenAI"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon/team-ai-network/schoolbridge",
+    "category": "education"
+  },
+  {
+    "title": "LibAI",
+    "team": "LibAI",
+    "short_description": "Optimizing content delivery for students based on the students internet connectivity and their preferences.",
+    "full_description": "The long-term vision for LibAI is to create an adaptable, AI-powered platform that revolutionizes content management and user interaction. Built with Next.js, Supabase, ShadCN, and Tailwind CSS, LibAI emphasizes efficient user management, dynamic content delivery, and seamless adaptability based on internet speed. The platform will incorporate Retrieval-Augmented Generation (RAG)-based query capabilities, allowing users to access relevant, AI-generated responses from vast datasets.\n\nAdditionally, LibAI will support collaborative features like note sharing among students, enhancing the educational experience. The platform will also include intelligent filtering systems to detect and remove unwanted, negative, or harmful material, ensuring a safe and positive learning environment.\n\nThe project\u2019s ultimate goal is to integrate personalized, AI-driven content recommendations, expand external API integrations, and provide robust collaboration tools for educational institutions and organizations. LibAI aims to bridge the digital divide, offering equitable access to resources and fostering an innovative, collaborative, and secure learning space for schools and communities.",
+    "technologies": [
+      "",
+      "Groq"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon/connectfai-for-smarter-schools/libai",
+    "category": "education"
+  },
+  {
+    "title": "ScholarShelf",
+    "team": "EduGame",
+    "short_description": "ScholarShelf is an AI-driven learning assistant that helps students, researchers, and professionals manage learning materials and get context-specific answers from their uploaded documents. For a personalised learning and working experience.",
+    "full_description": "ScholarShelf is a next-generation AI-powered platform designed to revolutionize the way students, researchers, and professionals interact with their study and work materials. The platform allows users to upload documents in various formats, including PDFs, DOCX, and TXT, and provides context-specific answers to their queries using cutting-edge AI technology. ScholarShelf eliminates the hassle of manually searching through multiple documents by offering personalized, context-aware responses derived exclusively from the uploaded content.\n\nKey Features:\nDocument Uploads: Supports multiple formats, including academic papers, textbooks, research notes, and more.\nContext-Aware Assistance: AI provides accurate answers tailored to the content in the uploaded materials.\nUser-Centric: Designed to cater to students, researchers, educators, and professionals across different fields.\nLightweight and Efficient: Operates without complex embeddings, making it accessible on minimal hardware.\n\nBenefits Beyond Education: ScholarShelf's capabilities extend beyond traditional learning environments:\nHealthcare: Doctors and medical researchers can upload clinical guidelines, research papers, or patient reports and ask precise questions to support decision-making and diagnosis.\nCorporate Training: Companies can use ScholarShelf to manage training materials, enabling employees to ask questions and quickly learn from company policies, handbooks, or training guides.\nLegal Industry: Legal professionals can upload case files and ask specific questions to streamline legal research and case preparation.\nKnowledge Management: Organizations can manage large repositories of documents, making it easy for teams to retrieve critical information on demand.",
+    "technologies": [
+      "",
+      "streamlit",
+      "AI/ML API"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon/edugame/scholarshelf",
+    "category": "education"
+  },
+  {
+    "title": "Network Log Translator",
+    "team": "AI Venture",
+    "short_description": "The Network Log Translator simplifies network errors for non-technical users. It provides clear explanations and troubleshooting tips in multiple languages. With options for text or voice input, it empowers individuals to resolve connectivity issues.",
+    "full_description": "The Network Log Translator is an innovative platform aimed at demystifying common network errors for individuals with limited technical knowledge. By offering clear, layman-friendly explanations and practical troubleshooting steps, it helps users understand issues like \"DNS_PROBE_FINISHED_NO_INTERNET\" or \"Connection Timed Out.\"\n\nSupporting multiple languages\u2014including English, Urdu, Spanish, and several South African languages\u2014this tool ensures accessibility for diverse communities. Users can input their network logs either through text or voice, making it adaptable to different preferences.\n\nThe platform features predefined buttons for common errors, allowing quick access to explanations. Additionally, it integrates speech recognition technology, enabling users to speak their issues directly. Overall, the Network Log Translator empowers individuals to tackle connectivity challenges confidently, fostering greater digital literacy and self-reliance in underprivileged areas.",
+    "technologies": [
+      "",
+      "Groq",
+      "Llama 3",
+      "streamlit"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon/ai-venture/network-log-translator",
+    "category": "education"
+  },
+  {
+    "title": "MajiNet",
+    "team": "Victoria Sentinel Guardian",
+    "short_description": "MajiNet, a key part of the Victoria Sentinel initiative, uses AI to improve connectivity in underserved areas of East Africa, boosting healthcare, education, and financial services around Lake Victoria and beyond.",
+    "full_description": "MajiNet is a beacon of hope within the Victoria Sentinel, working to bridge the connectivity gap in East Africa, especially around Lake Victoria. Although Kenya's tech sector is growing fast with investments, according to The Big Deal Africa Kenya has attracted $638 million in 2024, representing 29% of Africa's total startup funding, most of this growth is centered in Nairobi. This leaves rural areas with poor connectivity, making it hard to access vital services like healthcare and education. This keeps many people in poverty and limits their chances to improve their lives.\nIn areas like Lake Victoria, where natural beauty contrasts with daily struggles, MajiNet aims to make a real difference. The Victoria Sentinel project, which is focused on monitoring and saving Lake Victoria, needs fast internet to process data from IoT sensors and user apps. But frequent weather problems like storms, floods, and droughts make connectivity even worse, breaking power lines and networks.\nMajiNet's goal is to use AI to manage bandwidth based on demand and to maintain network infrastructure. These solutions make sure that internet connections are strong and reliable, allowing quick access to telemedicine and online education.MajiNet aims to help local communities thrive, improving living conditions and promoting sustainable growth.\nMoreover, MajiNet uses Vambo AI's multilingual technology to overcome language barriers and improve service delivery. This technology ensures clear and accurate communication, making healthcare and education accessible to everyone, regardless of their language.\nThe challenges around Lake Victoria are not unique. Many regions across East Africa face similar connectivity issues. Surveys and government reports highlight the urgent need for better infrastructure, but efforts often fall short. MajiNet aims to fill this gap, offering a model that can be scaled across the continent, bringing the benefits of connectivity to every part of East Africa",
+    "technologies": [
+      "AI/ML API",
+      "GPT-3.5"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon/victoria-sentinel-guardian/majinet",
+    "category": "education"
+  }
+]

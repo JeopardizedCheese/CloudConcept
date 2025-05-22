@@ -1,0 +1,331 @@
+[
+  {
+    "title": "Second Opinion App For Medical Patients",
+    "team": "AIChamps",
+    "short_description": "A web app that helps patients analyze prescriptions by uploading details and medicine names. It uses transfomers to suggest if a second opinion is needed and provides questions to ask doctors, ensuring better decision-making and avoiding side effects.",
+    "full_description": "Our project is a python based application designed to assist patients in analyzing their prescriptions. By uploading their prescriptions and entering medicine names, the app uses transformers(huggingface) to assess the need for a second opinion. It also provides personalized suggestions for questions patients (before taking prescribed medicines) to ask their doctors to avoid potential side effects or medication-related issues. The app aims to empower patients to make more informed decisions about their health, promoting safer medication practices and fostering communication between patients and healthcare professionals.",
+    "technologies": [
+      "",
+      "streamlit",
+      "Falcon 2 11B",
+      "EasyOCR"
+    ],
+    "url": "https://lablab.ai/event/execute-ai-genesis/aichamps/second-opinion-app-for-medical-patients",
+    "category": "medical"
+  },
+  {
+    "title": "AI-Powered Medical Chatbot",
+    "team": "TechEn",
+    "short_description": "An intelligent medical chatbot built with next js and node js and powered by Google Gemini. It analyzes patient medical reports and provides personalized health recommendations.",
+    "full_description": "This project is an innovative, AI-powered medical chatbot designed to help patients understand their medical reports and receive intelligent, personalized health recommendations. Leveraging Google Gemini and a modern full-stack architecture, the chatbot delivers natural, context-aware conversations and actionable medical insights in real time.\n\nThe chatbot allows users to upload or input details from their medical reports. It then analyzes the content using advanced AI models and provides relevant suggestions, including possible diagnoses, follow-up actions, or general health advice. The system combines the power of large language models with semantic search and a seamless user experience.\n\nKey Features:\n\nMedical Report Analysis: Users can submit their reports, which the chatbot interprets using NLP and medical data context.\n\nPersonalized AI Recommendations: The chatbot responds with tailored health insights, based on report content and user input.\n\nConversational AI: Natural dialogue powered by Google Gemini and enhanced with Hugging Face's Inference API for additional ML capabilities.\n\nSemantic Search: Pinecone enables fast, accurate retrieval of relevant medical information via vector embeddings.\n\nResponsive Frontend: Built using Next.js, styled with Shadcn/ui, and deployed via Vercel, the frontend is clean, responsive, and user-friendly.\n\nModular and Scalable Architecture: The codebase is well-structured, supporting fast iteration and future feature expansion.\n\nAI Integration: Powered by Google Gemini, Vercel AI SDK, and Hugging Face Inference API to ensure robust performance and flexibility.\n\nTech Stack:\n\nFrontend: Next.js, Shadcn/ui, HTML/CSS\n\nBackend/AI: Google Gemini, Hugging Face Inference API, Vercel AI SDK\n\nSearch/Database: Pinecone (vector database)\n\nDeployment: Vercel",
+    "technologies": [
+      "",
+      "Gemini AI"
+    ],
+    "url": "https://lablab.ai/event/execute-ai-genesis/techen/ai-powered-medical-chatbot",
+    "category": "medical"
+  },
+  {
+    "title": "AI Medical Assistant",
+    "team": "Obsidian",
+    "short_description": "AI Medical Assistant providing real time suggestions to user.",
+    "full_description": "The AI Medical Assistant is a real-time web-based chatbot that provides users with intelligent, context-aware medical suggestions using advanced natural language processing. Built with Flask, OpenAI's GPT-4o (via the AIML API), LangChain, Pinecone, and HuggingFace embeddings, the app retrieves relevant medical information from a vectorized knowledge base and generates human-like responses. It maintains conversation history to ensure continuity and uses semantic search to ground its answers in actual medical content. This tool is ideal for users seeking quick medical guidance or educational insights and can be easily expanded for clinical or multilingual use.",
+    "technologies": [
+      "AI/ML API",
+      "Pinecone",
+      "Cohere"
+    ],
+    "url": "https://lablab.ai/event/execute-ai-genesis/obsidian/ai-medical-assistant",
+    "category": "medical"
+  },
+  {
+    "title": "Medical AI Health System",
+    "team": "Dota Empire",
+    "short_description": "Medical AI Health System is an advanced healthcare management system designed to optimize emergency department operations through AI-powered resource allocation, real-time monitoring, and intelligent patient flow management.",
+    "full_description": "The Medical AI Health System is an advanced solution designed to optimize hospital operations, particularly in the emergency department, by combining automated patient classification with real-time visualization and movement tracking. The system integrates cutting-edge technologies such as Gemini AI for efficient patient categorization, Gemini for managing the vector database, and React for dynamic visualization of ward activities.\n\nThe primary goal of the system is to enhance the performance of healthcare facilities by focusing on five key areas:\n\nIntelligent Patient Management: The system automatically classifies patients based on severity, ensuring timely care and resource allocation.\nResource Optimization: By analyzing real-time data, the system efficiently utilizes medical resources, reducing waste and improving service delivery.\n\nStaff Management: It aids in the coordination of healthcare staff by tracking their workload, improving staff allocation, and minimizing delays.\n\nAnalytics Dashboard: The system provides insightful data visualizations and reports, enabling decision-makers to monitor hospital performance and identify areas for improvement.\n\nSystem Intelligence: The integration of AI enables continuous learning and process improvement, making the system adaptable to evolving needs and improving overall hospital efficiency.\n\nThis system aims to revolutionize healthcare management by ensuring smoother operations, better resource allocation, and improved patient outcomes.",
+    "technologies": [
+      "",
+      "Gemini AI"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon/dota-empire/medical-ai-health-system",
+    "category": "medical"
+  },
+  {
+    "title": "drAIML - Medical AI Consultant",
+    "team": "Dr AIML",
+    "short_description": "Dr. AIML delivers AI-driven medical consultations, accurate diagnostics, and personalized care with precision, empathy, and ethics, ensuring reliable and accessible healthcare anytime, anywhere.",
+    "full_description": "Dr. AIML revolutionizes healthcare by integrating cutting-edge AI with precision, adaptability, and empathy. It leverages advanced APIs and technologies to deliver real-time medical consultations, personalized diagnostics, and ethical care anytime, anywhere.  \n\nDr. AIML interacts seamlessly with OpenAI, Llama3 Groq, and Together.ai APIs, enabling access to powerful language models and medical insights. Using python-dotenv, it securely manages API keys and environment variables for streamlined operations.  \n\nThe platform\u2019s user interface is powered by NiceGUI, a FastAPI-based framework that ensures a responsive and user-friendly experience. Backend operations utilize aiohttp for high-performance asynchronous HTTP handling and asyncio for efficient concurrent processing.  \n\nFor data handling, Dr. AIML employs ujson for fast JSON processing and psutil for system-level process management, ensuring optimal performance. Additionally, Streamlit is used to create an interactive and engaging front-end experience for users.  \n\nWith its mission to provide accessible, accurate, and ethical healthcare, Dr. AIML combines state-of-the-art APIs, secure integrations, and advanced machine learning to redefine the future of medical consultation. It\u2019s more than just AI; it\u2019s a trusted partner in safeguarding human health.",
+    "technologies": [
+      "",
+      "Together AI",
+      "streamlit",
+      "Groq",
+      "Custom GPTs",
+      "Generative AI Studio",
+      "Llama 3",
+      "OpenAI"
+    ],
+    "url": "https://lablab.ai/event/ai-for-connectivity-hackathon/pulsehackers/draiml-medical-ai-consultant",
+    "category": "medical"
+  },
+  {
+    "title": "Medical Recommendations and Diagnostics",
+    "team": "Spirit",
+    "short_description": "Personalized Medical Plan Generator, designed to deliver customized recommendations for a wide range of categories.",
+    "full_description": "We\u2019re introducing a groundbreaking Personalized Medical Plan Generator, designed to deliver customized recommendations for a wide range of categories such as Meal Plans, Medication Plans, Daily Schedules and Tasks, and much more. Whether you\u2019re managing a specific medical condition, aiming for better wellness, or need general health advice, our tool creates personalized plans based on vital factors like age, sex, weight, activity level, and medical history. Powered by cutting-edge AI technology, the platform generates medically accurate, comprehensive, and customized plans that are perfectly tailored to each individual's unique needs.\n\nUsing newer embedding models like BGE M3 or Jina Embeddings we can utilize it to retrieve related documents for future knowledge distillation of medical data.\n\nThe server code is also here but is hosted in AWS\nhttps://github.com/sprites20/Disease-Ontology-Retrieval",
+    "technologies": [
+      "Together AI",
+      "",
+      "Vercel"
+    ],
+    "url": "https://lablab.ai/event/lokahi-innovation-in-healthcare/spirit/medical-recommendations-and-diagnostics",
+    "category": "medical"
+  },
+  {
+    "title": "LifeVault-  AI-Powered Medical Histories",
+    "team": "MediAgil",
+    "short_description": "A web-based solution for uploading post-surgical documents (PDFs or images), extracting key medical data with AI, and storing it in MongoDB. It streamlines medical record digitization and transcription, improving healthcare data management and its access.",
+    "full_description": "Our project is a web-based platform that revolutionizes medical record digitization. It allows users to upload post-surgical documents (PDFs or images) via an intuitive interface. These documents follow a predefined structure compatible with our AI system, which extracts key medical details such as patient name, age, symptoms, medical history, diagnoses, and treatments. The extracted data is converted into a standardized JSON format and securely stored in MongoDB for efficient management and retrieval.\n\nBy automating transcription, our solution reduces errors, saves time, and ensures quick access to accurate, well-structured data. The integration of AI ensures high accuracy and adaptability to new formats, while MongoDB provides scalability for managing large datasets.\n\nOur project is enhanced by partnerships with Volmand, Mozart, New Digital Trade Coalition INC, Ciudad B\u00f3tica, and others. These collaborations bring expertise and resources to refine our platform, expanding its potential impact on healthcare systems.\n\nTogether, we aim to simplify medical record management, improve healthcare data accessibility, and enable professionals to focus on delivering quality care while patients benefit from better continuity and safety.",
+    "technologies": [
+      "",
+      "ChatGPT",
+      "MongoDB",
+      "Custom GPTs",
+      "OpenAI"
+    ],
+    "url": "https://lablab.ai/event/lokahi-innovation-in-healthcare/mediagil/lifevault-ai-powered-medical-histories",
+    "category": "medical"
+  },
+  {
+    "title": "LifeVault AI Powered Medical Histories",
+    "team": "Immortiva",
+    "short_description": "A centralised and real time health record empowers humans and transhumans to track our medical history, providing data for AI-driven decisions. Life-Vault spin-off integrate and secure these records, avoiding fragmentation across clinics and insurers.",
+    "full_description": "Immortiva stems from the belief that health data is central to understanding and extending human life. Our medical records are fragmented across clinics, insurers, and institutions, creating silos that impede effective care and prevent individuals from having full ownership of their medical history. This fragmentation hinders holistic health insights, an essential component of personalised care and longevity research.  \n\nImmortiva envisions a future where each individual has seamless access to an integrated and centralised repository of their health records, powered by AI. This repository, Life-Vault, represents the foundational step in the journey so we decided to partner with MediAgil, Volmand, Ciudad Botica, New Digital Trade Coalition, Mozart and other organizations in Life-Vault for this Hackaton.\n\nThe Importance of Health Records for Longevity and Immortality:\nMedical histories are critical not just for diagnosing and treating conditions but also for predicting and preventing illnesses. AI thrives on data, and the richer and more complete the dataset, the more accurate its insights. By consolidating medical records into a unified Life-Vault, we enable:  \n\n1. Longitudinal Analysis: A continuous view of a person\u2019s health over time to identify patterns and trends that can inform proactive care.  \n2. Customised Health Recommendations: AI-driven analysis provides personalised advice tailored to an individual's unique history and needs.  \n3. Precision Medicine: Improved access to comprehensive records allows healthcare providers to offer treatments that are more targeted and effective.  \n4. Research Advancements: Aggregated anonymised data supports breakthroughs in health, biotechnology, and transhumanism, accelerating the path to longevity.  \nThis emphasis on centralised records is critical to Immortiva MTP\u2014extending life expectancy and improving quality of life through systematic innovation. Creating Life-Vault we can start an MVP of data training for our network.",
+    "technologies": [
+      "",
+      "OpenAI",
+      "MongoDB"
+    ],
+    "url": "https://lablab.ai/event/lokahi-innovation-in-healthcare/immortiva/lifevault-ai-powered-medical-histories",
+    "category": "medical"
+  },
+  {
+    "title": "Lapius an Autonomous Medical Coder",
+    "team": "Lapius",
+    "short_description": "Lapius is a powerful Multi-agent application that empowers medical coders and patients to extract medical codes (ICD-10-CM) from medical records or explain the meaning of codes found in medical bills or EOB.",
+    "full_description": "US hospitals and clinics are losing $125B every year due to delayed and inaccurate medical coding. While 8 out of 10 citizens receive medical bills with at least one error. Current solutions for both citizens and hospitals do not seem to be sufficient: even today, more than 50 percent of hospitals rely on the manual labor of medical coders. Although the large foundation models do not perform according to industry standards, we now propose a new framework, which combines multi-agent architecture with a RAG pipeline. At present there are two main functionalities: \n\n1. Extrapolate via Llama 3.2 the content of the codes of a medical receipt (e.g., an itemised bill)\n2. Assign ICD-10 codes to a clinical note, explaining them and offering alternatives. \n\nThe solution outperforms some of the solutions currently on the market.",
+    "technologies": [
+      "",
+      "Llama 3.1",
+      "Llama 3.2",
+      "LlamaIndex"
+    ],
+    "url": "https://lablab.ai/event/llama-impact-hackathon/lapius/lapius-an-autonomous-medical-coder",
+    "category": "medical"
+  },
+  {
+    "title": "Doctor Assistant and Medical Image Analyst",
+    "team": "MEDICAL IMAGE ANALYSIS AI",
+    "short_description": "Virtual assistant designed to support healthcare professionals by providing accurate, evidence-based medical information and treatment options. It prioritizes patient safety, ensuring that all advice is concise and clearly states",
+    "full_description": "Doctor_Assistant_and_Medical_Image_Analyst is an innovative virtual assistant designed specifically for healthcare professionals, particularly in rural areas with limited internet access. This project aims to enhance patient care by providing quick access to accurate, evidence-based medical information and treatment options, enabling doctors to make informed decisions even in challenging environments.\n\nBy utilizing offline capabilities, the assistant allows healthcare providers to retrieve essential medical data and analyze images without relying on constant internet connectivity. This feature is crucial in remote settings, where timely access to information can significantly impact patient outcomes. Ultimately, the project seeks to empower doctors in underserved regions, ensuring they have the tools needed to deliver effective and safe care.",
+    "technologies": [
+      "Llama 3.2"
+    ],
+    "url": "https://lablab.ai/event/edge-runners-3-point-2/medical-image-analysis-ai/doctor-assistant-and-medical-image-analyst",
+    "category": "medical"
+  },
+  {
+    "title": "AI Radiology Assistant- Easing Medical Imaging",
+    "team": "Intelligent Cat",
+    "short_description": "AI Radiology Assistant automates the analysis of X-ray/MRI scans, detects abnormalities, and generates standardized medical reports. It integrates with PACS/EHR, enhances diagnostic accuracy, reduces workload, and accelerates radiologists\u2019 workflows.",
+    "full_description": "Radiology Assistant AI is an advanced system designed to automate the analysis of medical imaging, such as X-Ray and MRI scans. By leveraging machine learning and image recognition, it detects abnormalities like fractures, tumors, and lesions with high accuracy. The system generates standardized medical reports, providing detailed descriptions and diagnostic suggestions, which are then reviewed by a radiologist. It integrates seamlessly with PACS and EHR systems, streamlining workflows and reducing the burden on healthcare providers. This AI not only improves diagnostic speed and precision but also allows radiologists to focus on more complex cases, ultimately enhancing patient care and clinical efficiency.",
+    "technologies": [
+      "Llama 3.2"
+    ],
+    "url": "https://lablab.ai/event/edge-runners-3-point-2/intelligent-cat/ai-radiology-assistant-easing-medical-imaging",
+    "category": "medical"
+  },
+  {
+    "title": "Medical Image Analysis",
+    "team": "HackTide",
+    "short_description": "A tool designed to simplify medical diagnostics using AI. Users can upload medical images, and the Gemini 1.5 Pro model analyzes them to provide clear insights into health issues, diagnoses, and treatment options.",
+    "full_description": "The AI Assistant for Doctors and Patients is an innovative tool designed to use AI to make medical diagnostics more accessible and easier to understand. In today\u2019s healthcare system, patients often struggle with interpreting medical scans, understanding diagnoses, and figuring out treatment options. This application aims to simplify that process by giving users a clear, easy-to-understand explanation of their medical information.\n\nUsers can upload any medical image, and the AI, powered by the Gemini 1.5 Pro model, quickly analyzes it. The AI provides insights on possible health issues, diagnoses, and treatment suggestions. This helps users avoid the confusion of medical jargon and the hassle of searching online for explanations, delivering straightforward information directly.\n\nBuilt using Python and Streamlit, the application offers a user-friendly experience where users can upload images and get instant results. The Gemini Pro Vision model\u2019s integration enhances the AI\u2019s ability to accurately analyze and provide insights, making it a valuable tool for both patients and healthcare professionals.\n\nThe project aims to empower patients by giving them easy access to understandable medical insights, helping them make more informed healthcare decisions. It also supports doctors by speeding up image analysis, improving diagnostic accuracy and efficiency. This AI Assistant shows the potential of technology in making healthcare more personalized and effective, offering a glimpse into a future where AI plays a central role in enhancing patient care and experience.",
+    "technologies": [
+      "",
+      "streamlit",
+      "Gemini AI"
+    ],
+    "url": "https://lablab.ai/event/edge-runners-3-point-2/hacktide/medical-image-analysis",
+    "category": "medical"
+  },
+  {
+    "title": "AI-Powered Medical Diagnostics Assistant",
+    "team": "OutBox AI",
+    "short_description": "The AI-Powered Medical Diagnostics Assistant is a mobile app that analyzes medical images and symptoms in real-time using AI, providing multi-disease detection and diagnostic insights on edge devices, even in areas with limited internet access.",
+    "full_description": "The AI-Powered Medical Diagnostics Assistant is designed to bridge the healthcare gap in remote and underdeveloped regions by offering real-time, AI-driven diagnostic insights without relying on cloud infrastructure. This mobile application uses advanced AI/ML models to analyze multimodal data\u2014such as X-rays, CT scans, and patient-reported symptoms via text or speech\u2014to detect multiple diseases including diabetes, heart disease, and Parkinson\u2019s. By operating on low-latency edge devices, the app ensures that healthcare providers in areas with poor internet connectivity can still access reliable diagnostic tools. The system also recommends follow-up tests and referrals, improving the quality and timeliness of medical care in underserved communities.",
+    "technologies": [
+      "",
+      "streamlit"
+    ],
+    "url": "https://lablab.ai/event/edge-runners-3-point-2/outbox-ai/ai-powered-medical-diagnostics-assistant",
+    "category": "medical"
+  },
+  {
+    "title": "Empowering Patients and Medical Report Analysis",
+    "team": "HealthGuardians",
+    "short_description": "AI-powered Medical Report Analyzer that streamlines health assessments by extracting and analyzing key data from medical reports, providing personalized insights and recommendations to empower patients in managing their health effectively.",
+    "full_description": "The AI-Powered Medical Report Analyzer is designed to revolutionize how patients interact with their health data. By utilizing advanced AI technologies, this application extracts critical information from medical reports, such as test results and health history, presenting it in an easily understandable format.\n\nUsers can upload their medical reports, and the app will analyze the data, offering personalized insights and recommendations tailored to individual health needs. In addition to report analysis, the app includes features for health assessments, counseling, and advocacy, empowering users to take control of their health journey with informed decisions. This comprehensive tool not only enhances patient engagement but also promotes better health literacy.",
+    "technologies": [
+      "",
+      "streamlit",
+      "OpenAI"
+    ],
+    "url": "https://lablab.ai/event/strawberry-reasoning-with-o1/healthguardians/empowering-patients-and-medical-report-analysis",
+    "category": "medical"
+  },
+  {
+    "title": "AI Medical Chatbot",
+    "team": "QKIAnalytics",
+    "short_description": "Streamline your medical practice with our AI-powered Medical Appointment API. Enhance patient interactions through seamless appointment scheduling, intelligent conversation processing, and efficient patient data management, all in one integrated solution.",
+    "full_description": "Qki Analytics is revolutionizing access to healthcare by empowering providers to focus on what matters most: patient care. We understand that administrative tasks like scheduling and conducting patient interviews consume a significant portion of a healthcare worker's time. Our solution leverages the power of AI and ElevenLabs' advanced text-to-speech technology to automate these tasks, creating a more efficient and patient-centered experience.\n\nImagine a friendly, always-available AI assistant capable of conducting comprehensive patient interviews with empathy and professionalism. Our chatbot follows customizable interview scripts, asking precise questions while remaining patient and respectful. It can clarify responses, delve deeper into specific details (like medication dosage), and even schedule appointments at the patient's convenience. This not only saves healthcare workers valuable time but also ensures consistent and thorough data collection.\n\nOur Chatbot currently supports English, Polish, and Russian with high-quality speech synthesis, and we're actively expanding language support. Our API offers flexibility by allowing users to choose between leading LLM providers like Groq (Llama 3.1 70b model), OpenAI (GPT-4o/GPT-4o-mini), and Gemini (Gemini-1.5-pro/Gemini-1.5-flash).\n\nOur Vision for the Future:\n\nWe believe everyone deserves easy access to quality healthcare, and Qki Analytics is committed to making that a reality. We're currently developing a groundbreaking feature similar to OpenAI's Advanced Voice Mode in GPT-4, but with enhanced conversational flow. Our chatbot is being designed to intelligently detect the \"end of speaking turns\", leading to more seamless and natural interactions.\n\nFurthermore, we're expanding our platform to offer comprehensive clinic management features, including API access for scheduling, rescheduling, and other administrative functions.\n\nChoose Qki Analytics and help us build a more human-centered future for healthcare!",
+    "technologies": [
+      "",
+      "Llama 3.1",
+      "Whisper",
+      "GPT-4 Vision",
+      "OpenAI",
+      "ElevenLabs",
+      "GPT-4"
+    ],
+    "url": "https://lablab.ai/event/elevenlabs-ai-audio-challenge/qkianalytics/ai-medical-chatbot",
+    "category": "medical"
+  },
+  {
+    "title": "Medical Report summarizer",
+    "team": "Falcon Innovators",
+    "short_description": "Using gradio and Falcon 2 API in Falcon Hackathon to summarize and highlight key points in medical reports.",
+    "full_description": "Our team is excited to participate in the Falcon Hackathon, where we are developing an innovative software application aimed at revolutionizing the medical field. Using Flutter and Falcon 2 API, our project focuses on summarizing medical reports and highlighting key points. This application is designed to aid doctors with concise and relevant information quickly, especially in urgent situations. By distilling lengthy medical documents into easily digestible summaries, we aim to enhance the efficiency and accuracy of medical professionals. We aim to make critical information more accessible, allowing doctors to make informed decisions rapidly. With our combined expertise and dedication, we are committed to creating a tool that can significantly impact the healthcare industry, improving patient outcomes and streamlining the workflow for medical staff. We look forward to showcasing our project and its potential at the Falcon Hackathon.",
+    "technologies": [
+      "IBM Granite"
+    ],
+    "url": "https://lablab.ai/event/falcon-hackathon/falcon-innovators/medical-report-summarizer",
+    "category": "medical"
+  },
+  {
+    "title": "Athena - Hyper Personalised AI Medical Educator",
+    "team": "Latent Space explorer",
+    "short_description": "An innovative AI-driven tutoring platform designed to provide personalized medical education. It adapts to individual learning styles, creates custom study plans, and offers near real-time comprehension analysis for optimal learning.",
+    "full_description": "As a medical student, I would sometimes spend hours flipping through books or articles to try to find an answer to a hard question. We need to learn concepts and then start to apply them, but it\u2019s hard to find resources that teach concepts properly. That\u2019s why I came up with the HyperPersonalised Adaptive AI Tutor.\n\nThis platform leverages advanced LLMS to transform medical education. It tailors itself to each student\u2019s unique learning style, ensuring a deeply personalized educational experience. The tutor adapts dynamically, creating custom study plans aligned with the student\u2019s goals and timelines. Intelligent agents continuously analyze the student\u2019s performance and comprehension, storing this analysis in a secure database. This allows the AI to adjust the curriculum on-the-fly, providing targeted content to enhance learning efficiency.",
+    "technologies": [
+      "",
+      "Llama 3",
+      "OpenAI"
+    ],
+    "url": "https://lablab.ai/event/llama-3-ai-hackathon/latent-space-explorer/athena-hyper-personalised-ai-medical-educator",
+    "category": "medical"
+  },
+  {
+    "title": "Dr John is a medical chatbot that assists doctors",
+    "team": "My First Draft",
+    "short_description": "Dr. John is a virtual assistant for doctors, providing decision support by accurately retrieving patient data, including history, tests, and medications, to answer medical queries.",
+    "full_description": "Dr. John represents a groundbreaking virtual assistant meticulously designed to revolutionize the way doctors access and utilize patient information, thereby significantly enhancing their decision-making capabilities. Leveraging advanced artificial intelligence and natural language processing technologies, Dr. John can swiftly and accurately retrieve detailed patient medical records, including comprehensive histories, diagnostic tests, and prescribed medications. This enables healthcare professionals to quickly gain insights into a patient's medical background, understand the nuances of their conditions, and make informed treatment decisions. By integrating seamlessly into the healthcare workflow, Dr. John ensures that doctors have immediate access to vital patient data, streamlining the diagnostic process and improving patient outcomes. Its intuitive interface simplifies the complexity of medical data retrieval, making it an indispensable tool for medical practitioners aiming to provide the highest standard of care. Through its innovative use of technology, Dr. John is setting a new benchmark in the enhancement of clinical practice, demonstrating the transformative potential of AI in healthcare.",
+    "technologies": [
+      "OpenAI"
+    ],
+    "url": "https://lablab.ai/event/leap-2024-hackathon/my-first-draft/dr-john-is-a-medical-chatbot-that-assists-doctors",
+    "category": "medical"
+  },
+  {
+    "title": "MarhamRoute - Medical tourism Planner",
+    "team": "MarhamRoute",
+    "short_description": "MarhamRoute: Streamlining medical travel in Saudi Arabia with AI-driven personalized planning for care, stay, and more.",
+    "full_description": "MarhamRoute is a cutting-edge web application designed to revolutionize the way individuals plan their medical travel within the Kingdom of Saudi Arabia. With its user-friendly interface and AI-powered recommendations, it serves as a comprehensive guide for those seeking medical treatments, ensuring a stress-free and organized journey from start to finish.\n\nAt its core, MarhamRoute simplifies the often complex process of organizing medical trips. It begins with visa assistance, directing users to relevant resources for obtaining a medical treatment visa, ensuring travelers start their journey on the right foot. Understanding that medical information is crucial, the platform offers two convenient options for sharing health details: direct text input or secure file upload for those with documents. \n\nRecognizing the importance of comfort during recovery, MarhamRoute facilitates hotel bookings, tailored to the user's preferences and budget. The platform doesn't stop at accommodations; it also addresses the need for local transportation and dietary considerations, incorporating user dietary restrictions to suggest restaurants, thereby making the stay as comfortable as possible.\n\nOne of the standout features of MarhamRoute is its integration with Google Places API and OpenAI's GPT-3.5-turbo model. This technology backbone allows the platform to provide personalized hospital and restaurant recommendations based on the user's specific health condition, ensuring that the medical and dietary needs are met with precision.\n\nAdditionally, MarhamRoute goes beyond medical care to enhance the overall travel experience. Whether users need transfers around the city or are looking for activities post-recovery, the platform offers suggestions to enrich their stay, making it not just a medical journey but a holistic travel experience.\n\nMarhamRoute is a companion that understands and caters to the nuanced needs of medical travelers in Saudi Arabia.",
+    "technologies": [
+      "",
+      "Mistral AI",
+      "OpenAI",
+      "GPT-3.5"
+    ],
+    "url": "https://lablab.ai/event/leap-2024-hackathon/marhamroute/marhamroute-medical-tourism-planner",
+    "category": "medical"
+  },
+  {
+    "title": "HHEM Victorious Medical Data Query Analyzer",
+    "team": "HHEM Victorious",
+    "short_description": "Utilizing HHEM Vectara RAG allows us to gain insights into how query structure affects sensitivity, aiming to reduce medical errors and improve patient safety.",
+    "full_description": "Incorporating the HHEM Vectara RAG, our project sheds light on the impact of query structuring on sensitivity, with the goal of minimizing medical inaccuracies and enhancing patient care safety. This endeavor has led to the development of four pivotal components:\n\nSynthetic Data Custom GPT: This element is tasked with generating artificial medical data, thereby expediting the testing procedures.\nData Query Custom GPT: Through the use of a RAG system, this component retrieves synthetic data and applies various transformations. These alterations enable us to assess the data's vulnerability to inaccuracies.\nHHEM-Vectara Query Tuner: This tool is designed to evaluate the transformed data, determining how adjustments to query structure influence the likelihood of errors.\nAgent Model Evaluation: This phase involves the scrutiny of mixed normal and specific models, including mixtral normal, mixtral crazy, gemini, phi2, and zephyr, to gauge the impact of query modifications on the precision of results.\n\nOur software serves as a crucial experimental platform, providing invaluable insights into how even minor modifications and model changes can significantly affect the retrieval of medical data.",
+    "technologies": [
+      "Generative Agents",
+      "Vectara",
+      "Custom GPTs",
+      "Gemini AI",
+      "Mistral AI"
+    ],
+    "url": "https://lablab.ai/event/unhallucinate-challenge-24-hours-fight/hhem-victorious/hhem-victorious-medical-data-query-analyzer",
+    "category": "medical"
+  },
+  {
+    "title": "Galen - An AI medical assistant",
+    "team": "Galen",
+    "short_description": "Advanced AI medical assistant identifies skin lesions, helping patients in understanding potential health issues. Using Mixtral-8x7B LLM, it helps patients on addressing potential dangers, fostering informed decisions for proactive healthcare management.",
+    "full_description": "The cutting-edge AI medical assistant is a groundbreaking tool designed to revolutionize the field of dermatology by specializing in the detection of skin lesions and disorders. Its primary objective is to empower patients with a deeper understanding of their skin health, facilitating informed decision-making and proactive management of potential issues. Leveraging state-of-the-art algorithms and image recognition technology, it's combining the power of deep learning algorithms for computer vision and Mixtral-8x7B model in the field of medical assistance.\n\nPatients using this AI assistant receive detailed insights into their specific skin concerns, enhancing their awareness of potential health problems. The system goes beyond mere identification, providing comprehensive information about the nature of the detected lesions or disorders. Through an intuitive interface, it guides individuals in comprehending the severity of their condition and educates them about potential risks associated with untreated issues.",
+    "technologies": [
+      "",
+      "Clarifai"
+    ],
+    "url": "https://lablab.ai/event/mixtral-8x7b-24-hours-challenge/galen/galen-an-ai-medical-assistant",
+    "category": "medical"
+  },
+  {
+    "title": "Artificial Medical Imaging",
+    "team": "OphyCare Team AI",
+    "short_description": "Artificial Medical Imaging (AMI) is a technique to visualize the internals of the human body using artificial intelligence based on the patient\u2019s diagnosis made by either real providers or generative AI algorithms.",
+    "full_description": "Artificial Medical Imaging (AMI) is a technique to visualize the internals of the human body using artificial intelligence based on the patient\u2019s diagnosis made by either real providers or generative AI algorithms. AMI uses Generative Adversarial Networks (GANs) to create or enhance medical images. These images can be generated from scratch by AI algorithms or enhanced and interpreted by AI to aid healthcare professionals in diagnosis, treatment planning, and research. The diagnosis part is done by our Sadiq \u2013 a chat with doctor application based on ChatGPT 3.5. The imaging part is done by a feature built into Sadiq based on DALL-E.",
+    "technologies": [
+      "DALL-E-2",
+      "GPT-3.5"
+    ],
+    "url": "https://lablab.ai/event/ai-challenge-with-gpt-3-5-codex-dall-e-and-whisper-api/ophycare-team-ai/artificial-medical-imaging",
+    "category": "medical"
+  },
+  {
+    "title": "LLM enhanced Medical Notes",
+    "team": "fritzlabs",
+    "short_description": "Medical notes are comprehensive, diverse, and complex. As a result, healthcare providers spend a significant amount of time searching. At times, content may go unnoticed or be overlooked. Can Large Language Models make medical findings more accessible?",
+    "full_description": "Working with medical notes puts a significant strain on healthcare professionals. The volume of findings is constantly increasing, driven by advances in medical technology and an aging population. These notes encompass a wide range of information, including clinical assessments, treatment plans, diagnostic test results, and progress reports. Navigating through this wealth of data demands meticulous attention and consumes valuable time that could be allocated to direct patient care.\n\nMedical findings are extensive, diverse, and complex, reflecting the intricacies of human health and the multifaceted nature of medical conditions. The diversity poses a challenge for healthcare workers, who must assimilate and synthesize this information to provide the best possible care. \n\nAs a result, healthcare professionals spend a significant amount of time searching through these findings. They meticulously comb through records, striving to extract the most relevant information while ensuring nothing critical is overlooked. Yet, despite their best efforts, the sheer volume and complexity of medical notes can lead to instances where crucial details may inadvertently go unnoticed.\n\nThis is where large language models step in as powerful tools to augment healthcare workflows. With their ability to rapidly process and comprehend vast amounts of text, they can swiftly analyze medical notes and extract pertinent information. By doing so, they assist in streamlining the information retrieval process, allowing healthcare professionals to allocate more time to direct patient interactions and clinical decision-making.",
+    "technologies": [
+      "",
+      "LangChain",
+      "OpenAI",
+      "GPT-3.5"
+    ],
+    "url": "https://lablab.ai/event/ai-challenge-with-gpt-3-5-codex-dall-e-and-whisper-api/fritzlabs/llm-enhanced-medical-notes",
+    "category": "medical"
+  },
+  {
+    "title": "Medical Bot Using LLAMA2",
+    "team": "PopeyeX",
+    "short_description": "A medical bot is a conversational AI tool that can provide medical information and support to patients.",
+    "full_description": "A medical bot is a conversational AI tool that can provide medical information and support to patients. Medical bots can be used to answer questions about symptoms, treatments, and medications, as well as to provide coaching and support for patients with chronic conditions.\nThe challenge is to develop a medical chatbot application using cutting-edge AI technology that can provide accurate and coherent medical information and assistance in real-time. This project requires addressing issues related to algorithmic precision, diverse medical data integration, medical knowledge incorporation, and real-time response capabilities.\nOur medical chatbot solution represents a cutting-edge fusion of AI technology and medical expertise. It stands ready to assist users with accurate, real-time medical information and guidance. With diverse data sources, a deep understanding of medical concepts, our chatbot ensures that individuals can access essential healthcare information with ease. Whether it's offering advice on common symptoms or providing recommendations for seeking professional medical help, our chatbot is a reliable and user-friendly healthcare companion",
+    "technologies": [
+      "",
+      "LangChain",
+      "Llama 2"
+    ],
+    "url": "https://lablab.ai/event/fine-tuning-24-hours-challenge/popeyex/medical-bot-using-llama2",
+    "category": "medical"
+  },
+  {
+    "title": "PharmOgle - Your AI Medical Bot",
+    "team": "AI-katsuki",
+    "short_description": "It is a Medical Assitant in which you can scan your medicines and ask it question related to that medicine.",
+    "full_description": "Our idea is to build an app that helps people better know about the medication they are taking. \nIt helps people ask specific questions related to medicines.\nIt Utilizes AI Technologies like Computer Vision and LLM along with LangChain to bring this dream to fruition.\nRight now for POC it supports the following 39 medicines:\nadol\naggrex\namrizole\natoreza\naugmentin\nbetadine\nbrufen\nc-retard\nceftriaxone\ncelebrex\ncemicresto\ncholerose\nciprofar\nclarinase\ncongestal\ndaflon\ndalacin\ndiflucan\nflagyl\nfloxabact\nforadil\nfucidin\ngaramycin\nglucophage\nivypront\njanumet\njusprin\nlactulose\nlamifen\nmegamox\nmidodrine\nmucophylline\nneurovit\noracure\npridocaine\nprimrose\nsediproct\nzantac\nzyrtec",
+    "technologies": [
+      "LangChain",
+      "Clarifai",
+      "Llama 2"
+    ],
+    "url": "https://lablab.ai/event/llama-2-hackathon-with-clarifai/ai-katsuki/pharmogle-your-ai-medical-bot",
+    "category": "medical"
+  }
+]
