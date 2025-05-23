@@ -88,6 +88,7 @@ const modelHandlers = {
                     temperature: 0.7,
                     max_tokens: 1000
                 })
+                return completion.choices[0].message.content
             } catch (fallbackError) {
                 console.error('Groq fallback also failed: ', fallbackError)
                 throw error
