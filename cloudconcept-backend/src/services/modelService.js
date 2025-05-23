@@ -34,14 +34,30 @@ const modelHandlers = {
             })
             return response.data.response
         } catch (error) {
-            console.error('Error calling Llama3:', error)
+            console.error('Error calling Llama3, falling back to Groq:', error)
             //Return mock response for testing if Ollama isnt actually running (No need now)
             //Throw an actual error
-            throw error
+            try {
+                const completion = await groq.chat.completions.create({
+                    messages: [
+                        {
+                            role: "system",
+                            content: "You are a technical feasibility expert analyzing hackathon ideas."
+                        },
+                        { role: "user", content: prompt}
+                    ],
+                    model: "llama-3-8b-8192",
+                    temperature: 0.7,
+                    max_tokens: 1000
+                })
+                return completion.choices[0].message.content
+            } catch (fallbackError) {
+                console.error('Groq fallback also failed:', fallbackError)
+                throw error
+            }
         }
     },
 
-    //Add other models here when I implement it
     'mistral:7b-instruct': async (prompt) => {
         try {
             console.log("Calling Mistral model...")
@@ -56,10 +72,26 @@ const modelHandlers = {
             })
             return response.data.response
         } catch (error) {
-            console.error('Error calling Mistral:', error)
+            console.error('Error calling Mistral, falling back to Groq:', error)
             //Return mock response for testing if Ollama isnt actually running (No need now)
             //Throw actual error instead
-            throw error
+            try {
+                const completion = await groq.chat.completions.create({
+                    messages: [
+                        {
+                            role: "system",
+                            content: "You are an originality assessor analyzing the uniqueness of ideas."
+                        },
+                        { role: "user", content:prompt }
+                    ],
+                    model: "llama-3.3-70b-versatile",
+                    temperature: 0.7,
+                    max_tokens: 1000
+                })
+            } catch (fallbackError) {
+                console.error('Groq fallback also failed: ', fallbackError)
+                throw error
+            }
         }
     },
 
@@ -77,10 +109,27 @@ const modelHandlers = {
             })
             return response.data.response
         } catch (error) {
-            console.error('Error calling Phi3:', error)
+            console.error('Error calling Phi3, falling back to Groq:', error)
             //Return mock response for testing if Ollama isnt actually running (no need now)
             //Throw in an actual error
-            throw error
+            try {
+                const completion = await groq.chat.completions.create({
+                    messages: [
+                        {
+                            role: "system",
+                            content: "You are an ethical evaluator focused on education technology. Keep responses concise and under 500 words."
+                        },
+                        { role: "user", content: prompt}
+                    ],
+                    model: "llama3-8b-8192",
+                    temperature: 0.7,
+                    max_tokens: 500
+                })
+                return completion.choices[0].message.content
+            } catch (fallbackError) {
+                console.error('Groq fallback also failed:', fallbackError)
+                throw error
+            }
         }
     },
     
