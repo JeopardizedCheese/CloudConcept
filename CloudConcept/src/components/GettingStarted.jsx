@@ -35,7 +35,7 @@ function GettingStarted() {
                 }`}>
                   <Play className="h-4 w-4 text-blue-400" />
                 </div>
-                <span className="font-medium text-lg">Sign Up and Create Your Project</span>
+                <span className="font-medium text-lg">Sign Up and Create Your Project (We actually dont have sign up dont mind this)</span>
               </div>
               <ChevronDown
                 className={`h-5 w-5 transition-transform duration-300 ${
@@ -103,9 +103,8 @@ function GettingStarted() {
                     <li>Write a concise description of your concept</li>
                     <li>Specify the problem your idea solves</li>
                     <li>Identify your target audience or market</li>
-                    <li>Highly recomended to write a summary of a concept you want to validate</li>
                   </ul>
-                  {/* END PLACEHOLDER */}
+                  {/* END */}
                 </div>
               </div>
             </div>
