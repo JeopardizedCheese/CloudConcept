@@ -151,55 +151,101 @@ function ResultsPage({ debateData, onReset }) {
               </AccordionContent>
             </AccordionItem>
 
+            {/*Debug*/}
+            {console.log('Cross-examination data:', debateData.crossExamination)}
+            {console.log('Traditional:', debateData.crossExamination?.traditional)}
+            {console.log('Role-switch:', debateData.crossExamination?.roleSwitch)}
+            <div style={{color: 'red', fontSize: '12px'}}>
+              DEBUG: {JSON.stringify(Object.keys(debateData.crossExamination || {}), null, 2)}
+            </div>
+
             {/* Cross-Examination */}
             {debateData.crossExamination && Object.keys(debateData.crossExamination).length > 0 && (
               <AccordionItem value="cross-exam" className="bg-gray-900/50 backdrop-blur-sm rounded-lg border border-blue-500/30 shadow-[0_0_20px_rgba(59,130,246,0.1)]">
                 <AccordionTrigger className="text-xl font-semibold text-blue-400 px-6 py-4 hover:text-blue-300">
                   Cross-Examination Debate
                 </AccordionTrigger>
-                <AccordionContent className="px-6 pb-6">
-                  <div className="space-y-6">
-                    {Object.entries(debateData.crossExamination).map(([interaction, data]) => {
-                      const [challenger, challenged] = interaction.split('_to_');
-                      const challengerData = debateData.agentAnalyses?.[challenger] || debateData.initialAnalyses?.[challenger];
-                      const challengedData = debateData.agentAnalyses?.[challenged] || debateData.initialAnalyses?.[challenged];
-                      
-                      return (
-                        <div key={interaction} className="space-y-4">
-                          <div className="flex items-center gap-2">
-                            <div 
-                              className="w-6 h-6 rounded-full flex items-center justify-center text-white font-bold text-xs"
-                              style={{ backgroundColor: getAgentColor(challenger) }}
-                            >
-                              {challenger[0].toUpperCase()}
-                            </div>
-                            <span className="text-sm text-gray-400">
-                              {challengerData?.role || challenger} challenges {challengedData?.role || challenged}
-                            </span>
-                          </div>
-                          
-                          <div className="space-y-3">
-                            <div className="border-l-4 pl-4" style={{ borderColor: getAgentColor(challenger) }}>
-                              <div className="text-sm font-medium text-gray-400 mb-1">Challenge:</div>
-                              <div className="bg-gray-800/50 rounded-lg p-3">
-                                <StyledMarkdown content={data.challenge} />
-                              </div>
-                            </div>
-                            
-                            <div className="border-l-4 pl-4" style={{ borderColor: getAgentColor(challenged) }}>
-                              <div className="text-sm font-medium text-gray-400 mb-1">Response:</div>
-                              <div className="bg-gray-800/50 rounded-lg p-3">
-                                <StyledMarkdown content={data.response} />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      );
-                    })}
+              <AccordionContent className="px-6 pb-6">
+      
+            {/* Traditional Cross-Examination */}
+            {debateData.crossExamination.traditional && (
+            <div className="mb-8">
+              <h3 className="text-lg font-semibold text-blue-300 mb-4">Traditional Cross-Examination</h3>
+            <div className="space-y-6">
+              {Object.entries(debateData.crossExamination.traditional).map(([interaction, data]) => {
+                const [challenger, challenged] = interaction.split('_to_');
+                const challengerData = debateData.agentAnalyses?.[challenger] || debateData.initialAnalyses?.[challenger];
+                const challengedData = debateData.agentAnalyses?.[challenged] || debateData.initialAnalyses?.[challenged];
+              
+                return (
+                  <div key={interaction} className="space-y-4">
+                    <div className="flex items-center gap-2">
+                      <div 
+                        className="w-6 h-6 rounded-full flex items-center justify-center text-white font-bold text-xs"
+                        style={{ backgroundColor: getAgentColor(challenger) }}
+                      >
+                        {challenger[0].toUpperCase()}
+                      </div>
+                      <span className="text-sm text-gray-400">
+                        {challengerData?.role || challenger} challenges {challengedData?.role || challenged}
+                      </span>
                   </div>
-                </AccordionContent>
-              </AccordionItem>
-            )}
+                  
+                  <div className="space-y-3">
+                    <div className="border-l-4 pl-4" style={{ borderColor: getAgentColor(challenger) }}>
+                      <div className="text-sm font-medium text-gray-400 mb-1">Challenge:</div>
+                      <div className="bg-gray-800/50 rounded-lg p-3">
+                        <StyledMarkdown content={data.challenge} />
+                      </div>
+                    </div>
+                    
+                    <div className="border-l-4 pl-4" style={{ borderColor: getAgentColor(challenged) }}>
+                      <div className="text-sm font-medium text-gray-400 mb-1">Response:</div>
+                      <div className="bg-gray-800/50 rounded-lg p-3">
+                        <StyledMarkdown content={data.response} />
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* Role-Switch Cross-Examination */}
+      {debateData.crossExamination.roleSwitch && (
+        <div>
+          <h3 className="text-lg font-semibold text-purple-300 mb-4">Role-Switch Cross-Examination</h3>
+          <div className="space-y-6">
+            {Object.entries(debateData.crossExamination.roleSwitch).map(([interaction, data]) => {
+              return (
+                <div key={interaction} className="space-y-4">
+                  <div className="flex items-center gap-2">
+                    <div className="w-6 h-6 rounded-full bg-purple-500 flex items-center justify-center text-white font-bold text-xs">
+                      🎭
+                    </div>
+                    <span className="text-sm text-gray-400">
+                      {data.originalRole} acting as {data.challengerRole}
+                    </span>
+                  </div>
+                  
+                  <div className="border-l-4 border-purple-500 pl-4">
+                    <div className="text-sm font-medium text-gray-400 mb-1">Role-Switch Challenge:</div>
+                    <div className="bg-gray-800/50 rounded-lg p-3">
+                      <StyledMarkdown content={data.challenge} />
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+    </AccordionContent>
+  </AccordionItem>
+)}
 
             {/* Generation Mode: Initial Concepts */}
             {debateData.mode === 'generation' && debateData.initialConcepts && (
