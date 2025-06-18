@@ -562,4 +562,44 @@ Based on all perspectives, traditional debates, and role-switched insights, prov
   }
 }
 
-module.exports = { runDebate };
+// Add this function before module.exports
+async function rankIdeas(ideaResults) {
+  console.log('--- Ranking Multiple Ideas ---');
+  
+  const summaries = ideaResults.map((result, index) => {
+    const projectInfo = result.projectName ? `Project: ${result.projectName}\n` : '';
+    return `IDEA ${index + 1}:\n${projectInfo}Analysis: ${result.finalSynthesis || result.finalConcept}`;
+  }).join('\n\n---\n\n');
+
+  const rankingPrompt = `
+You are the CloudConcept Orchestrator. You have analyzed ${ideaResults.length} hackathon ideas through our multi-agent debate system.
+
+Based on these comprehensive analyses, rank ALL ideas from BEST to WORST for winning a 48-hour hackathon.
+
+${summaries}
+
+Provide:
+1. **COMPLETE RANKING** (1st place through ${ideaResults.length}th place)
+2. **Winner Justification** - Why the top 3 would win
+3. **Winning Factors** - Technical feasibility + Market potential + Innovation + Ethics + 48hr buildability
+4. **Judge Appeal** - What makes the top concepts stand out to hackathon judges
+
+Be decisive and confident in your rankings. Consider what judges actually look for in hackathon winners.
+`;
+
+  try {
+    const ranking = await modelHandlers['deepseek'](rankingPrompt);
+    return {
+      ranking,
+      totalIdeas: ideaResults.length,
+      timestamp: new Date().toISOString()
+    };
+  } catch (error) {
+    console.error('Error ranking ideas:', error);
+    throw error;
+  }
+}
+
+
+//Updated the module export to include this
+module.exports = { runDebate, rankIdeas };

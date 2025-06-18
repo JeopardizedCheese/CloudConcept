@@ -30,7 +30,8 @@ function TestDebateUI() {
 
   const navigate = useNavigate();
 
-  // If we have debate results, show the beautiful results page
+  // If we have debate results, show the results page
+  {/*I forgot to destructure the reset Props, fixed that*/}
   if (debateData) {
     return <ResultsPage debateData={debateData} onReset={reset} />;
   }
