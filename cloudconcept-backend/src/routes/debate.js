@@ -19,7 +19,13 @@ router.post('/', async (req, res) => {
         
         console.log('Received debate request:', { prompt, category, mode });
         
+        console.log('=== API ROUTE DEBUG ===');
+        console.log('About to call runDebate...');
+
         const debateResult = await runDebate(prompt, category, projectContext, mode);
+
+        console.log('Debate result structure: ', Object.keys(debateResult));
+        console.log('Cross-examination structure', Object.keys(debateResult.crossExamination || {}))
         
         res.json({
             success: true,

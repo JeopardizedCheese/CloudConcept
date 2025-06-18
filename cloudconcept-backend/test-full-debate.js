@@ -20,12 +20,20 @@ async function testFullDebate() {
       console.log(data.analysis.substring(0, 300) + '...\n');
     });
     
-    // Show Cross-Examination (THIS WAS MISSING!)
-    console.log('\n=== CROSS-EXAMINATION ===');
-    Object.entries(response.data.data.crossExamination).forEach(([interaction, data]) => {
+    // Show Traditional Cross-Examination
+    console.log('\n=== TRADITIONAL CROSS-EXAMINATION ===');
+    Object.entries(response.data.data.crossExamination.traditional).forEach(([interaction, data]) => {
       console.log(`\n${interaction}:`);
       console.log('Challenge:', data.challenge.substring(0, 200) + '...');
       console.log('Response:', data.response.substring(0, 200) + '...\n');
+    });
+    
+    // Show Role-Switch Cross-Examination
+    console.log('\n=== ROLE-SWITCH CROSS-EXAMINATION ===');
+    Object.entries(response.data.data.crossExamination.roleSwitch).forEach(([interaction, data]) => {
+      console.log(`\n${interaction}:`);
+      console.log(`${data.originalRole} acting as ${data.challengerRole}:`);
+      console.log('Challenge:', data.challenge.substring(0, 200) + '...\n');
     });
     
     // Show Final Synthesis
@@ -36,6 +44,5 @@ async function testFullDebate() {
     console.error('Error:', error.response?.data || error.message);
   }
 }
-
 
 testFullDebate();

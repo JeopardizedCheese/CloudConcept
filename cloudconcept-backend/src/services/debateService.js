@@ -303,14 +303,21 @@ Present this as a cohesive, ready-to-implement idea that addresses the user's re
     console.log('Generating final concept...');
     const finalConcept = await modelHandlers[agents.orchestrator.modelId](refinementPrompt);
     console.log('✓ Final concept generated');
+
+    console.log('Step 3b: Role-switch cross-examination...');
+    const roleSwitch = await runRoleSwitchCrossExamination(agentAnalyses);
     
     return {
       initialConcepts,
       agentAnalyses,
       finalConcept,
-      crossExamination,
+      crossExamination: {
+        traditional: crossExamination,
+        roleSwitch: roleSwitch
+      },
       timestamp: new Date().toISOString()
     };
+
   } catch (error) {
     console.error('Error generating final concept:', error);
     throw error;
@@ -351,9 +358,28 @@ async function runInitialAnalyses(userPrompt) {
   return analyses;
 }
 
-// Phase 2: Cross-examination between experts
+// Phase 2: Cross-examination between experts (added the role switch one)
 async function runCrossExamination(initialAnalyses) {
   console.log('\n--- Phase 2: Cross-Examination ---');
+  
+  // Phase 2a: Traditional cross-examination
+  const traditional = await runTraditionalCrossExamination(initialAnalyses);
+  
+  // Phase 2b: Role-switch cross-examination
+  const roleSwitch = await runRoleSwitchCrossExamination(initialAnalyses);
+
+  const result = { traditional, roleSwitch }
+  console.log('=== DEBUG: runCrossExamination RETURNING ===');
+  console.log('Result keys:', Object.keys(result));
+  console.log('Traditional keys:', Object.keys(result.traditional || {}));
+  console.log('RoleSwitch keys:', Object.keys(result.roleSwitch || {}));
+
+  return result 
+}
+
+// Phase 2a: Traditional cross-examination (renamed from original runCrossExamination because yes)
+async function runTraditionalCrossExamination(initialAnalyses) {
+  console.log('\n--- Phase 2a: Traditional Cross-Examination ---');
   const crossExamination = {};
   
   // Define who challenges whom
@@ -421,6 +447,70 @@ Defend your position or acknowledge valid points and adjust your analysis.
   return crossExamination;
 }
 
+// Phase 2b: Role-switch cross-examination (NEW)
+async function runRoleSwitchCrossExamination(initialAnalyses) {
+  console.log('\n--- Phase 2b: Role-Switch Cross-Examination ---');
+  const roleSwitchDebate = {};
+  
+  const pairs = [
+    { agent1: 'technicalExpert', agent2: 'marketAnalyst' },
+    { agent1: 'originalityAssessor', agent2: 'ethicalEvaluator' }
+  ];
+  
+  for (const pair of pairs) {
+    try {
+      console.log(`Role-switch debate: ${agents[pair.agent1].role} ↔ ${agents[pair.agent2].role}...`);
+      
+      // Agent1 becomes Agent2 and challenges Agent2's analysis
+      const prompt1 = `You are now temporarily adopting the role of a ${agents[pair.agent2].role}.
+      
+Looking at your colleague's analysis with fresh eyes:
+"${initialAnalyses[pair.agent2].analysis}"
+
+From this ${agents[pair.agent2].role} perspective, what concerns, risks, or overlooked factors do you identify? Be constructively skeptical - find genuine weak spots while staying realistic about the project's potential.`;
+      
+      // Agent2 becomes Agent1 and challenges Agent1's analysis
+      const prompt2 = `You are now temporarily adopting the role of a ${agents[pair.agent1].role}.
+
+Looking at your colleague's analysis with fresh eyes:
+"${initialAnalyses[pair.agent1].analysis}"
+
+From this ${agents[pair.agent1].role} perspective, what concerns, risks, or overlooked factors do you identify? Be constructively skeptical - find genuine weak spots while staying realistic about the project's potential.`;
+      
+      const challenge1 = await modelHandlers[agents[pair.agent1].modelId](prompt1);
+      const challenge2 = await modelHandlers[agents[pair.agent2].modelId](prompt2);
+      
+      roleSwitchDebate[`${pair.agent1}_as_${pair.agent2}`] = { 
+        challengerRole: agents[pair.agent2].role,
+        originalRole: agents[pair.agent1].role,
+        challenge: challenge1 
+      };
+      roleSwitchDebate[`${pair.agent2}_as_${pair.agent1}`] = { 
+        challengerRole: agents[pair.agent1].role,
+        originalRole: agents[pair.agent2].role,
+        challenge: challenge2 
+      };
+      
+      console.log(`✓ Completed role-switch: ${pair.agent1} ↔ ${pair.agent2}`);
+      
+    } catch (error) {
+      console.error(`Error in role-switch for ${pair.agent1} ↔ ${pair.agent2}:`, error);
+      roleSwitchDebate[`${pair.agent1}_as_${pair.agent2}`] = {
+        challengerRole: agents[pair.agent2].role,
+        originalRole: agents[pair.agent1].role,
+        challenge: `Error generating role-switch challenge: ${error.message}`
+      };
+      roleSwitchDebate[`${pair.agent2}_as_${pair.agent1}`] = {
+        challengerRole: agents[pair.agent1].role,
+        originalRole: agents[pair.agent2].role,
+        challenge: `Error generating role-switch challenge: ${error.message}`
+      };
+    }
+  }
+  
+  return roleSwitchDebate;
+}
+
 // Phase 3: Generate final synthesis
 async function generateFinalSynthesis(userPrompt, initialAnalyses, crossExamination) {
   console.log('\n--- Phase 3: Final Synthesis ---');
@@ -442,12 +532,17 @@ ${Object.entries(initialAnalyses).map(([id, data]) =>
   `${data.role}: ${data.analysis}`
 ).join('\n\n')}
 
-Key points from cross-examination:
-${Object.entries(crossExamination).map(([interaction, data]) => 
+Traditional cross-examination debates:
+${crossExamination.traditional ? Object.entries(crossExamination.traditional).map(([interaction, data]) => 
   `Challenge: ${data.challenge}\nResponse: ${data.response}`
-).join('\n\n')}
+).join('\n\n') : 'No traditional cross-examination data available'}
 
-Based on all perspectives and debates, provide a comprehensive final recommendation these sections:
+Role-switch cross-examination insights:
+${crossExamination.roleSwitch ? Object.entries(crossExamination.roleSwitch).map(([interaction, data]) => 
+  `${data.originalRole} as ${data.challengerRole}: ${data.challenge}`
+).join('\n\n') : 'No role-switch cross-examination data available'}
+
+Based on all perspectives, traditional debates, and role-switched insights, provide a comprehensive final recommendation with these sections:
 1. Final Recommendation: A refined version of the original idea with a catchy name (ESSENTIAL)
 2. Key Insights from All Experts: Synthesized perspectives (ESSENTIAL)
 3. Technical Feasibility: Implementation approach and technology stack (ESSENTIAL)
